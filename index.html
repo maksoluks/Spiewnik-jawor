@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Śpiewnik</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+        .container { max-width: 500px; margin: 0 auto; }
+        h1 { color: #1db954; font-size: 24px; margin-bottom: 15px; }
+
+        .search-box {
+            width: 100%; padding: 12px 15px; background: #242424;
+            border: none; border-radius: 25px; color: white;
+            box-sizing: border-box; margin-bottom: 15px; font-size: 16px;
+        }
+        .search-box:focus { outline: 1px solid #1db954; }
+
+        /* Przewijany pasek filtrów */
+        .chips-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            -webkit-overflow-scrolling: touch;
+        }
+        .chips-wrapper::-webkit-scrollbar { display: none; }
+
+        .chips {
+            display: flex;
+            gap: 8px;
+            width: max-content;
+        }
+        .chip {
+            background: #242424; padding: 8px 16px;
+            border-radius: 20px; cursor: pointer; font-size: 14px;
+            white-space: nowrap; transition: background 0.2s;
+        }
+        .chip.active { background: #1db954; color: black; font-weight: bold; }
+
+        /* Kafelki utworów */
+        .song-card {
+            background: #181818; padding: 15px; border-radius: 8px;
+            margin-bottom: 10px; cursor: pointer; transition: background 0.2s;
+        }
+        .song-card:hover { background: #282828; }
+        .song-title { font-weight: bold; font-size: 18px; color: #fff; }
+        .song-region { font-size: 12px; color: #1db954; margin-top: 5px; text-transform: uppercase; font-weight: bold; }
+        .song-snippet { font-size: 14px; color: #b3b3b3; margin-top: 5px; }
+
+        /* Widoki */
+        .view { display: none; }
+        .view.active { display: block; }
+        .lyrics { white-space: pre-line; background: #1a1a1a; padding: 15px; border-radius: 8px; margin-top: 15px; font-size: 18px; line-height: 1.5; }
+        .btn { background: none; border: none; color: #1db954; cursor: pointer; font-size: 16px; padding: 10px 0; }
+
+        /* IDEALNE, CZYSTE, KWADRATOWE KLAMRY ROZCIĄGANE CSS */
+        .bis-block, .chl-block, .dzi-block {
+            display: flex;
+            align-items: stretch; /* Rozciąga klamrę od pierwszej do ostatniej linii tekstu */
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .bis-lines, .chl-lines, .dzi-lines {
+            flex-grow: 1;
+            white-space: pre-line;
+        }
+        .bis-brace, .chl-brace, .dzi-brace {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 10px; /* Szerokość kwadratowego "wąsa" klamry */
+            margin: 0 12px 0 15px;
+            border-right: 2px solid;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+            border-radius: 0 4px 4px 0; /* Delikatne zaokrąglenie na rogach klamry */
+        }
+        .bis-text, .chl-text, .dzi-text {
+            position: absolute;
+            left: 18px; /* Odstęp tekstu od klamry */
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            white-space: nowrap;
+        }
+
+        /* ODPOWIEDNIE KOLORY DLA KAŻDEGO TRYBU */
+        /* Bis - Zielona klamra, szary tekst */
+        .bis-brace { border-color: #1db954; }
+        .bis-text { color: #b3b3b3; }
+
+        /* Chłopcy - Całość Niebieska */
+        .chl-brace { border-color: #3498db; }
+        .chl-text { color: #3498db; }
+
+        /* Dziewczęta - Całość Różowa */
+        .dzi-brace { border-color: #e91e63; }
+        .dzi-text { color: #e91e63; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- LISTA PIOSENEK -->
+    <div id="list-view" class="view active">
+        <h1>SpotiJawor</h1>
+        <input type="text" id="search" class="search-box" placeholder="Szukaj po tytule lub tekście...">
+
+        <div class="chips-wrapper">
+            <div class="chips" id="filters-box"></div>
+        </div>
+
+        <div id="songs-box"></div>
+    </div>
+
+    <!-- WIDOK TEKSTU -->
+    <div id="song-view" class="view">
+        <button class="btn" onclick="showList()">← Powrót do listy</button>
+        <h2 id="song-header" style="margin-bottom: 5px;"></h2>
+        <div id="song-meta" class="song-region"></div>
+        <div id="song-lyrics" class="lyrics"></div>
+    </div>
+</div>
+
+<script>
+    let bazyPiosenek = [];
+    let wybranyRegion = "Wszystkie";
+
+    async function zaladujBazeDanych() {
+        try {
+            const odpowiedz = await fetch('piosenki.json');
+            bazyPiosenek = await odpowiedz.json();
+            generujFiltryRegionalne();
+            render();
+        } catch (blad) {
+            console.error("Nie udało się załadować pliku JSON:", blad);
+            document.getElementById('songs-box').innerHTML =
+                '<p style="color: red; text-align: center;">Błąd ładowania bazy danych (pliku JSON).</p>';
+        }
+    }
+
+    function generujFiltryRegionalne() {
+        const filtersBox = document.getElementById('filters-box');
+        const unikalneRegiony = new Set();
+
+        bazyPiosenek.forEach(p => {
+            if(p.region) unikalneRegiony.add(p.region);
+        });
+
+        const posortowaneRegiony = Array.from(unikalneRegiony).sort();
+        let HTML = `<div class="chip ${wybranyRegion === 'Wszystkie' ? 'active' : ''}" onclick="setRegion('Wszystkie')">Wszystkie</div>`;
+
+        posortowaneRegiony.forEach(reg => {
+            HTML += `<div class="chip ${wybranyRegion === reg ? 'active' : ''}" onclick="setRegion('${reg}')">${reg}</div>`;
+        });
+
+        filtersBox.innerHTML = HTML;
+    }
+
+    function render() {
+        const box = document.getElementById('songs-box');
+        const szukaj = document.getElementById('search').value.toLowerCase().trim();
+        box.innerHTML = '';
+        let znalezionoCokolwiek = false;
+
+        bazyPiosenek.forEach(item => {
+            const pasujeSlowo = item.tytul.toLowerCase().includes(szukaj) || item.tekst.toLowerCase().includes(szukaj);
+            const pasujeRegion = wybranyRegion === "Wszystkie" || item.region === wybranyRegion;
+
+            if (pasujeSlowo && pasujeRegion) {
+                znalezionoCokolwiek = true;
+
+                let czystyTekst = item.tekst.replace(/\[\/?(bis|chl|dzi)\]/g, '');
+                const firstLine = czystyTekst.split('\n')[0];
+
+                const card = document.createElement('div');
+                card.className = 'song-card';
+                card.onclick = () => showSong(item.id);
+                card.innerHTML = `
+                    <div class="song-title">${item.tytul}</div>
+                    <div class="song-region">${item.region}</div>
+                    <div class="song-snippet">${firstLine}...</div>
+                `;
+                box.appendChild(card);
+            }
+        });
+
+        if(!znalezionoCokolwiek) {
+            box.innerHTML = '<p style="color: #b3b3b3; padding: 15px; text-align: center;">Nie ma takiej piosenki...</p>';
+        }
+    }
+
+    function setRegion(reg) {
+        wybranyRegion = reg;
+        generujFiltryRegionalne();
+        render();
+    }
+
+    function showSong(id) {
+        const piosenka = bazyPiosenek.find(p => p.id === id);
+        if(!piosenka) return;
+
+        document.getElementById('song-header').textContent = piosenka.tytul;
+        document.getElementById('song-meta').textContent = piosenka.region;
+
+        let sformatowanyTekst = piosenka.tekst;
+
+        // 1. Zamiana dla BIS
+        sformatowanyTekst = sformatowanyTekst.replace(/\n?\[bis\]([\s\S]*?)\[\/bis\]\n?/g, function(match, podtekst) {
+            return '<div class="bis-block"><div class="bis-lines">' + podtekst.trim() + '</div><div class="bis-brace"><span class="bis-text">bis</span></div></div>';
+        });
+
+        // 2. Zamiana dla CHŁOPCÓW
+        sformatowanyTekst = sformatowanyTekst.replace(/\n?\[chl\]([\s\S]*?)\[\/chl\]\n?/g, function(match, podtekst) {
+            return '<div class="chl-block"><div class="chl-lines">' + podtekst.trim() + '</div><div class="chl-brace"><span class="chl-text">chł</span></div></div>';
+        });
+
+        // 3. Zamiana dla DZIEWCZĄT
+        sformatowanyTekst = sformatowanyTekst.replace(/\n?\[dzi\]([\s\S]*?)\[\/dzi\]\n?/g, function(match, podtekst) {
+            return '<div class="dzi-block"><div class="dzi-lines">' + podtekst.trim() + '</div><div class="dzi-brace"><span class="dzi-text">dzi</span></div></div>';
+        });
+
+        document.getElementById('song-lyrics').innerHTML = sformatowanyTekst;
+
+        document.getElementById('list-view').classList.remove('active');
+        document.getElementById('song-view').className = 'view active';
+        window.scrollTo(0,0);
+    }
+
+    function showList() {
+        document.getElementById('song-view').className = 'view';
+        document.getElementById('list-view').className = 'view active';
+    }
+
+    document.getElementById('search').addEventListener('input', render);
+
+    zaladujBazeDanych();
+</script>
+
+</body>
+</html>
