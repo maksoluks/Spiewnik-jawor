@@ -148,6 +148,26 @@
         }
     }
 
+    function normalizujTekst(tekst) {
+        if (!tekst) return '';
+        return tekst
+            .toLowerCase()
+            // Zamiana polskich znaków na podstawowe odpowiedniki
+            .replace(/[ąą]/g, 'a')
+            .replace(/[ćć]/g, 'c')
+            .replace(/[ęę]/g, 'e')
+            .replace(/[łł]/g, 'l')
+            .replace(/[ńń]/g, 'n')
+            .replace(/[óó]/g, 'o')
+            .replace(/[śś]/g, 's')
+            .replace(/[źźżż]/g, 'z')
+            // Usunięcie przecinków, kropek, pytajników, wykrzykników i myślników
+            .replace(/[,.\-?!()]/g, '')
+            // Zamiana wielu spacji na jedną i usunięcie spacji na końcach
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
     function generujFiltryRegionalne() {
         const filtersBox = document.getElementById('filters-box');
         const unikalneRegiony = new Set();
@@ -168,12 +188,17 @@
 
     function render() {
         const box = document.getElementById('songs-box');
-        const szukaj = document.getElementById('search').value.toLowerCase().trim();
+        // Zastosowanie normalizacji do wpisanej frazy
+        const szukaj = normalizujTekst(document.getElementById('search').value);
         box.innerHTML = '';
         let znalezionoCokolwiek = false;
 
         bazyPiosenek.forEach(item => {
-            const pasujeSlowo = item.tytul.toLowerCase().includes(szukaj) || item.tekst.toLowerCase().includes(szukaj);
+            // Zastosowanie normalizacji do danych z bazy przed porównaniem
+            const znormalizowanyTytul = normalizujTekst(item.tytul);
+            const znormalizowanyTekst = normalizujTekst(item.tekst);
+
+            const pasujeSlowo = znormalizowanyTytul.includes(szukaj) || znormalizowanyTekst.includes(szukaj);
             const pasujeRegion = wybranyRegion === "Wszystkie" || item.region === wybranyRegion;
 
             if (pasujeSlowo && pasujeRegion) {
