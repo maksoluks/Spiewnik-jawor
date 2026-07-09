@@ -122,43 +122,43 @@
         "id": "cztery-mile-lasu",
         "tytul": "Cztery mile lasu",
         "region": "Ogólne",
-        "tekst": "1. Cztery mile lasu, półtora dymbiny,\n[bis]Oj, ni ma w całych Gródkach porzundnej dziewczyny[/bis]\n\n2. Cztery mile lasu, półtora jałowca,\n[bis]Oj, ni ma w naszych Gródkach porzundnego chłopca[/bis]\n\n3. A w tych naszych Gródkach wszystkie okna szklane,\n[bis]A u ciebie, dziewczyno, chusteczko zatkane[/bis]\n\n4. Nie śpiwoj, nie śpiwoj, bo ci sie nie tyczy,\n[bis]Oj, u mojego stryja lepiej świnia kwiczy[/bis]\n\n5. Szumiały jawory, szumiały i dymby,\n[bis]Oj, teraz bedo strzelać starym pannom zymby[/bis]\n\n6. Chwaliłeś sie, stary, że masz złote góry,\n[bis]A u ciebie z obory wyglunda pies bury[/bis]\n\n7. A w tych naszych Gródkach dziewuchy po diable,\n[bis]Oj, majo krzywe nogi jak tureckie szable[/bis]\n\n8. Dziewuchy śpiwajo, bo chłopów nie słychać,\n[bis]Oj, suche lato było, musiały wysychać[/bis] ",
-        "sprawdzone": false
+        "tekst": "1. Cztery mile lasu, półtora dymbiny,\n[bis]Oj, ni ma w całych Gródkach porzundnej dziewczyny[/bis]\n\n2. Cztery mile lasu, półtora jałowca,\n[bis]Oj, ni ma w naszych Gródkach porzundnego chłopca[/bis]\n\n3. A w tych naszych Gródkach wszystkie okna szklane,\n[bis]A u ciebie, dziewczyno, chusteczko zatkane[/bis]\n\n4. Nie śpiwoj, nie śpiwoj, bo ci sie nie tyczy,\n[bis]Oj, u mojego stryja lepiej świnia kwiczy[/bis]\n\n5. Szumiały jawory, szumiały i dymby,\n[bis]Oj, teraz bedo strzelać starym pannom zymby[/bis]\n\n6. Chwaliłeś sie, stary, że masz złote góry,\n[bis]A u ciebie z obory wyglunda pies bury[/bis]\n\n7. A w tych naszych Gródkach dziewuchy po diable,\n[bis]Oj, majo krzywe nogi jak tureckie szable[/bis]\n\n8. Dziewuchy śpiwajo, bo chłopów nie słychać,\n[bis]Oj, suche lato było, musiały wysychać[/bis]\n\n9. Nasze miłe dziołchy, prosze się nie gniwać,\n[bis]\nBo my młode chłopoki, lubimy se śpiwać. \n[/bis]\n\n10. Ej, nasze chłopoki, prosze sie nie gniwać,\n[bis]\nOj, bo my młode dziołchy, lubimy se śpiwać.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "dalabym-ci-geby",
         "tytul": "Dałabym ci gęby",
         "region": "Ogólne",
         "tekst": "1. Dałabym ci gęby, Jasieńku nieboze,\n[bis]Ale mnie mamusia zamyka w komorze[/bis]\n\n2. Jasiu balamucie, nie chodź mi po rucie,\n[bis]Oj, ostre butki mos, rutke mi pościnos[/bis]\n\n3. A moja mamusia bardzo rano wstaje,\n[bis]Twoje podkówecki po rosie poznaje[/bis]\n\n4. Chciołym ci jo gęby, dziewcyna sie zali,\n[bis]A samo widzenie to mi nie wydoli[/bis]\n\n5. Bede do cie chodził przez calutkie lato,\n[bis]Ale muse wiedzieć, co bede mioł za to[/bis]\n\n6. Dałabym ci gęby, Jasieńku kochanie,\n[bis]Ale od mamusi dostałabym lanie[/bis]\n\n7. Bede jo cie kochać, bo jo ciebie lubie,\n[bis]Ale to kochanie bedzie az po ślubie[/bis] ",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "do-naszego-lublina",
         "tytul": "Do naszego Lublina",
         "region": "Ogólne",
-        "tekst": "1. Do naszego Lublina\nSto dróżeczek prowadzi.\n[bis] Witajcie (żegnajcie), kochani, witajcie (żegnajcie), kochani,\nI bądźcie nam tu radzi[/bis]\n\n2. Przyszliśmy do was z sercem,\nCo nigdy nie zawodzi,\n[bis] Bo polska serdeczność, bo polska serdeczność,\nOj, z kochania się rodzi[/bis]",
-        "sprawdzone": false
+        "tekst": "1. Do naszego Lublina\nSto dróżeczek prowadzi.\n[bis] Witajcie (żegnajcie), kochani, witajcie (żegnajcie), kochani,\nI bądźcie nam tu radzi[/bis]\n\n2. Przyszliśmy do was z sercem,\nCo nigdy nie zawodzi,\n[bis] Bo polska serdeczność, bo polska serdeczność,\nOj, z kochania się rodzi[/bis]\n\nWersja francuska\n\nNous sommes ici quarante\nOn danse et on chanter,\n[bis]\nAdieu nous chers amis,\nNous voulons aujourd'hui\nQuel vous etes chanter.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "dwie-marysie",
         "tytul": "Dwie Marysie",
         "region": "z Mazowsza",
         "tekst": "1. Dwie Marysie chwaliły się\nPrzed sąsiadką Zosią,\nJaką pilną, pracowitą\nKażda jest gosposią.\n\n2. Pierwsza mówi: Ja zamiatam,\nSprzątam, przędę, szyję;\n[bis]Co podarte, to załatam,\nCo brudne umyję[/bis]\n\n3. I ja także nie próżnuję -\nDruga na to rzecze -\n[bis]Dzieci bawię, jeść gotuję,\n Wiem, jak chleb się piecze.[/bis]\n\n4. Ej, gosposie - mówi Zosia -\nPochwalę was rada,\n[bis]Tylko same się nie chwalcie,\nBo to brzydka wada[/bis] ",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "dziewczyna-i-dzban",
         "tytul": "Dziewczyna i dzban (Szła dziewczyna po wodę)",
         "region": "z Lubelskiego",
-        "tekst": "1. Szła dziewczyna po wodę,\nMiała śliczną urodę\nI spotkał ją pan,\nCo jej rozbił dzban.\n\n2. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nParę koni dam.\n\nOddam ci się sam.\nAdieu nous chers amis,\nNous voulons aujourd'hui\n[bis]Quel vous êtes chanter[/bis]\n\n3. Parę koni nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n4. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nParę wołów dam.\n\n5. Pary wołów nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n6. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nSukienki ci dam.\n\n7. I sukienek nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n8. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nKorale ci dam.\n\n9. I korali nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n10. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\n\n11. Uha, ha, ha, wygrałam,\nZa dzban pana dostałam,\nZa zielony dzban,\nCo mi go stłukł pan.",
-        "sprawdzone": false
+        "tekst": "1. Szła dziewczyna po wodę,\nMiała śliczną urodę\nI spotkał ją pan,\nCo jej rozbił dzban.\n\n2. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nParę koni dam.\n\n3. Parę koni nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n4. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nParę wołów dam.\n\n5. Pary wołów nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n6. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nSukienki ci dam.\n\n7. I sukienek nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n8. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\nKorale ci dam.\n\n9. I korali nie chciała,\nTylko o dzban płakała,\nO zielony dzban,\nCo jej rozbił pan.\n\n10. Cicho, dziewczę, nie płaczże,\nJa ci za dzban zapłacę,\nZa zielony dzban\n\n11. Uha, ha, ha, wygrałam,\nZa dzban pana dostałam,\nZa zielony dzban,\nCo mi go stłukł pan.",
+        "sprawdzone": true
     },
     {
         "id": "dziewczyny-dziewczyny",
         "tytul": "Dziewczyny, dziewczyny",
         "region": "Ogólne",
         "tekst": "1. [chl]Dziewczyny, dziewczyny,\nWszystkie żeśta moje,\n[bis]Jak se jedną wezmę,\nO więcej nie stoję.[/bis][/chl]\n\n2. [chl]Dziewczyno kochana,\nPokaż mi kolana,\n[bis]Pokaż mi oboje,\nCzy takie jak moje.[/bis][/chl]\n\n3. [dzi]Z kamienia na kamień\nSkakała kokoszka,\n[bis]Kocham tego chłopca,\nCo dziobaty troszka.[/bis][/dzi]\n\n4. [dzi]Co dziobaty troszka\nI ma siwe oczy,\n[bis]Mało moje serce\nZa nim nie wyskoczy.[/bis][/dzi]\n\n5. [chl]Dziewczyno, krociku,\nŚciskam cię w kąciku,\n[bis]Za rękę, za nogę,\nZa co ino mogę.[/bis][/chl]\n\n\n[dzi]6. Nie będę śpiewała,\nBo mi się już nie chce,\n[bis]Lepiej se zostawię\nNa drugi dzień jeszcze.[/bis][/dzi]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "dziekuje-muzyce",
@@ -493,29 +493,29 @@
         "id": "idzta-chlopcy-do-diabla",
         "tytul": "Idźta, chłopcy, do diabła",
         "region": "Tańce chełmskie",
-        "tekst": "1. [dzi]Idźta, chłopcy, do diabła,\nBo mi kiecka opadła,\nJak se kieckę poprawię,\nTo się z wami zabawię.[/dzi]\n\n\n[chl]Poprawiła kiecunię,\nWołała na mamunię:\n- Oj, schowaj mnie, mamuniu,\nBo mnie chłopcy doguniu.[/chl]",
-        "sprawdzone": false
+        "tekst": "1. [dzi]Idźta, chłopcy, do diabła,\nBo mi kiecka opadła,\nJak se kieckę poprawię,\nTo się z wami zabawię.[/dzi]\n\n\n[chl]\nPoprawiła kiecunię,\nWołała na mamunię:\n[/chl]\n[dzi]\n- Oj, schowaj mnie, mamuniu,\nBo mnie chłopcy doguniu.\n[/dzi]",
+        "sprawdzone": true
     },
     {
         "id": "za-nasza-wioska",
         "tytul": "Za naszą wioską",
         "region": "Tańce chełmskie",
         "tekst": "1. Za naszą wioską szerokie pole,\nZa polem łączka i rzeczka w dole.\nOj, dana, dana, oj, dana, dana,\nZa polem łączka i rzeczka w dole.\n\nRef.: [bis]Raz, dwa, trzy, raz, dwa, trzy, raz, dwa, trzy, raz, dwa.\nRaz, dwa, trzy, raz, dwa, trzy, raz, dwa, trzy, raz, dwa. [/bis]\n\n2. A rzeczka w szuwar kryje swe wody,\nNad rzeczką konie pasie Jaś młody.\nOj, dana, dana, oj, dana, dana,\nNad rzeczką konie pasie Jaś młody.\n\n\n[bis]Ref: Raz, dwa, trzy...[/bis]\n\n3. Kasia nad rzeczką zapaskę prała,\nJasiowe konie z szkody wygnała.\nOj, dana, dana, oj, dana, dana,\nJasiowe konie z szkody wygnała.\n\n\n[bis]Ref.: Raz, dwa, trzy...[/bis]\n\n4. Jasio w podzięce całuje rączkę\nI na paluszek kładzie obrączkę.\nOj, dana, dana, oj, dana, dana,\nI na paluszek kładzie obrączkę.\n\n\n[bis]Ref.: Raz, dwa, trzy...[/bis]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "zasialem-se-owiesek",
         "tytul": "Zasiałem se owiesek",
         "region": "Tańce chełmskie",
         "tekst": "1. Zasiałem se owiesek, owiesek, owiesek,\nAni jeden nie wzeszedł, nie wzeszedł, hej!\n\n2. Za góreczką wymokło, wymokło, wymokło,\nBo się kiepsko zawlokło, zawlokło, hej!\n\n3. Na góreczce wywiało, wywiało, wywiało,\nBo się kiepsko zasiało, zasiało, hej!\n\n4. Zasiałem se i żytko, i żytko, i żytko,\nPrzyszło zbierać, aż brzydko, aż brzydko, hej!\n\n5. Zasiałem se pszeniczkę, pszeniczkę, pszeniczkę,\nPrzyszło zbierać mietliczkę, mietliczkę, hej!\n\n6. Zasiałem se ziemniaki, ziemniaki, ziemniaki,\nPrzyszło zbierać dwa krzaki, dwa krzaki, hej!\n\n7. Zasiałem se i proso, i proso, i proso,\nPrzyszło zbierać mi boso, mi boso, hej!\n\n8. Zasiałem se od granic, od granic, od granic,\nPrzyszło zbierać nie ma nic, nie ma nic, hej!\n\n9. Za góreczką, za łysą, za łysą, za łysą,\nTam się panny kołyszą, kołyszą, hej!",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "reczka",
         "tytul": "Reczka",
         "region": "Tańce chełmskie",
         "tekst": "1. Hej, tam w lesie na góreczce\nOrał Jasio, zasiał reczkę.\n[bis]Jak się zawierucha wzięła,\nChłopakowi reczkę zdęła.[/bis]\n\n2. Ani plewy, ani reczki,\nNi do rozmowy dzieweczki.\n[bis]Kaczki reczkę wydeptali,\nChłopcy pannę wysmuktali.[/bis]\n\n3. Kaczki reczkę wydeptali,\nCo my teraz będziem mieli? \n[bis]Każdy dostał po dziewczynie, \nA mnie starą babę dali.[/bis]\n\n4. Ja na babie nic nie stracę,\nSprzedam babę, kupię klaczę.\n[bis]Klacza zdechnie, skórę złupię, } bis\nA za skórę pannę kupię.[/bis]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "nasza-wies-so-dzys-weseli",
@@ -976,43 +976,43 @@
         "id": "wygnolem-konisie-na-rose",
         "tytul": "1. Wygnołem konisie na rose",
         "region": "Tańce Rzeszowskie",
-        "tekst": "1. [bis][chl]Wygnołem konisie na rose, na rose, [/bis] \n[bis]Konie diabli wzieli, samo uzde niose. [/bis]\n\n[bis]2. Konisie, konisie, pogubiły mi sie. [/bis] \n[bis]Jak jo se pojade do swojej Marysie? [/bis][/chl]",
-        "sprawdzone": false
+        "tekst": "1. [bis][chl]Wygnołem konisie na rose, na rose, [/bis] \n[bis]Konie diabli wzieli, samo uzde niose. [/bis]\n\n\n[bis]2. Konisie, konisie, pogubiły mi sie. [/bis] \n[bis]Jak jo se pojade do swojej Marysie? [/bis][/chl]",
+        "sprawdzone": true
     },
     {
         "id": "nad-rzeszowska-jasiolka",
         "tytul": "Nad rzeszowską Jasiołką",
         "region": "Tańce Rzeszowskie",
         "tekst": "[bis]1. Nad rzeszowską Jasiołką \nZieleni się gęsty las.[/bis] \n[bis]Tam dziewczyna stała, \nNa drogę patrzała, \nCzy nie jedzie z pola Jaś.[/bis]\n\n\n[bis]2. Jedzie Jasio, jedzie Jaś, \nWiezie zboża pełen wóz.[/bis] \n[bis]Kasieńkę zobaczył, \nZ wozika zeskoczył,\nWręczył Kasi bukiet róż.[/bis]\n\n\n[bis]3. Jedzie Jasio, jedzie Jaś, \nZa nim chłopców gromada.[/bis] \n[bis]Z muzyką wracają, \nGrają i śpiewają, \nBędzie wielka parada.[/bis]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "hejze-ino",
         "tytul": "2. Hejze, ino",
         "region": "Tańce Rzeszowskie",
         "tekst": "[chl]1. Hejze, ino, du, dana,\nKrótka na mnie sukmana,\nJesce krótse portecki,\nNie zechco mnie dziewecki.\n\n2. Hejze, ino, hopa, hyc,\nNie umiała chleba piyc,\nTylko jeden upiekła,\nDo kumory uciekła.[/chl]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "cerniuski-kapelus",
         "tytul": "3. Cerniuśki kapelus",
         "region": "Tańce Rzeszowskie",
-        "tekst": "[chl]1.- Cerniuśki kapelus, piórek pelniusieńko,\nPatrzcie sie, dziewuchy, jak mi ładniusieńko.[/chl]\n\n[dzi]2. Oj, młyński kamień miele, a zarnówka łechce,\nLeń jesteś do roboty, to cie zadna nie chce.[/dzi]",
-        "sprawdzone": false
+        "tekst": "[chl]1.- Cerniuśki kapelus, piórek pelniusieńko,\nPatrzcie sie, dziewuchy, jak mi ładniusieńko.[/chl]\n\n\n[dzi]2. Oj, młyński kamień miele, a zarnówka łechce,\nLeń jesteś do roboty, to cie zadna nie chce.[/dzi]",
+        "sprawdzone": true
     },
     {
         "id": "wolny",
         "tytul": "4. Wolny",
         "region": "Tańce Rzeszowskie",
-        "tekst": "1. Wolnego mi grojcie,\nBom sie juz zmordowol,\n[bis]Bo sie mojej Kasi\nBucik rozsnurowoł. [/bis]\n\n2. Wolnego mi grojcie,\nBom sie juz zadysoł,\nBo sie mojej Kasi\nBrzusek rozkołysoł. \n\n3. Juzem sie ozenił,\nJuzem sie naciesył,\n[bis]Juzem kawalerke\nNa płocie zawiesił. [/bis]\n\n4. Juzem sie ozenił,\nJuzem sie zaprzungnoł,\nJuz sie nie wyprzungne,\nAz nogi wyciungne. bis\n\n5. Juzem sie ozenił\nNa wiek wieków, amen,\nJuzem sie utopił,\nJak we wodzie kamień. } bis\n\n6. Juzem sie ozenił,\nJuzem sie powiesił,\nNa tej subienicy,\nCo chodzi w spódnicy. } bis",
-        "sprawdzone": false
+        "tekst": "1. Wolnego mi grojcie,\nBom sie juz zmordowol,\n[bis]Bo sie mojej Kasi\nBucik rozsnurowoł. [/bis]\n\n3. Juzem sie ozenił,\nJuzem sie naciesył,\n[bis]Juzem kawalerke\nNa płocie zawiesił. [/bis]\n\n2. Wolnego mi grojcie,\nBom sie juz zadysoł,\n[bis]\nBo sie mojej Kasi\nBrzusek rozkołysoł. \n[/bis]\n\n4. Juzem sie ozenił,\nJuzem sie zaprzungnoł,\n[bis]\nJuz sie nie wyprzungne,\nAz nogi wyciungne.\n[/bis]\n\n5. Juzem sie ozenił\nNa wiek wieków, amen,\n[bis]\nJuzem sie utopił,\nJak we wodzie kamień.\n[/bis]\n\n6. Juzem sie ozenił,\nJuzem sie powiesił,\n[bis]\nNa tej subienicy,\nCo chodzi w spódnicy.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "ktoryndy-ktoryndy",
         "tytul": "5. Któryndy, któryndy",
         "region": "Tańce Rzeszowskie",
-        "tekst": "[bis]1. Któryndy, któryndy, droga na Porymby? [/bis] \n[bis]Bo mi porymbianka obiecała gymby. [/bis]\n\n [bis] 2. Obiecała gymby, obiecała pyska. [/bis] \n [bis]Któryndy, któryndy na Porymby ściyzka? [/bis]",
-        "sprawdzone": false
+        "tekst": "[bis]1. Któryndy, któryndy, droga na Porymby? [/bis] \n[bis]Bo mi porymbianka obiecała gymby. [/bis]\n\n\n[bis] 2. Obiecała gymby, obiecała pyska. [/bis] \n[bis]Któryndy, któryndy na Porymby ściyzka? [/bis]",
+        "sprawdzone": true
     },
     {
         "id": "w-pietie-mamy",
@@ -1026,56 +1026,56 @@
         "tytul": "2. Kiedy muzyczka zagra",
         "region": "Tańce Starowarszawskie",
         "tekst": "[chl]1. Kiedy muzyczka zagra sztajera, [/chl]\n[dzi]Odi ridi dina, odi ridi da,[/dzi]\n[chl]To każda panna szuka frajera,[/chl]\n[dzi]Odi ridi dina, oj-da![/dzi]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "niech-mnie-co-chce-kosztuje",
         "tytul": "3. Niech mnie co chce kosztuje",
         "region": "Tańce Starowarszawskie",
-        "tekst": "[chl]1. Niech mnie, co chce, kosztuje,\nKosztuje, kosztuje,\nJa pannę angażuję\nDo polki galop.[/chl]\n\nRef.:\n[bis]Graj, graj, grajku drogi,\nGrajku drogi, grajku drogi,\nJedna z drugą szykuj nogi\nDo polki galop. [/bis]\n\n\n[dzi]2. Ach, powiedz, panie Feluś,\nPanie Felus, panie Feluś,\nGdzieś buchnął ten kapelusz\nI lakierasy te. [/dzi]\n\nRef.: Graj, graj...\n\n[chl]3. Panienka znakiem tego,\nZnakiem tego, znakiem tego,\nFrajera bierz innego,[/chl]\n[dzi]Ach, nie wygłupiaj się[/dzi]\n\nRef.: Graj, graj...",
-        "sprawdzone": false
+        "tekst": "[chl]1. Niech mnie, co chce, kosztuje,\nKosztuje, kosztuje,\nJa pannę angażuję\nDo polki galop.[/chl]\n\nRef.:\n[bis]Graj, graj, grajku drogi,\nGrajku drogi, grajku drogi,\nJedna z drugą szykuj nogi\nDo polki galop. [/bis]\n\n\n[dzi]2. Ach, powiedz, panie Feluś,\nPanie Feluś, panie Feluś,\nGdzieś buchnął ten kapelusz\nI lakierasy te. [/dzi]\n\nRef.: Graj, graj...\n\n[chl]3. Panienka znakiem tego,\nZnakiem tego, znakiem tego,\nFrajera bierz innego,[/chl]\n[dzi]Ach, nie wygłupiaj się[/dzi]\n\nRef.: Graj, graj...",
+        "sprawdzone": true
     },
     {
         "id": "w-saskim-ogrodzie",
         "tytul": "4. W Saskim Ogrodzie",
         "region": "Tańce Starowarszawskie",
-        "tekst": "1. W Saskim Ogrodzie, koło fontanny\nJakiś się facet przysiadł do panny.\nByła niewinna jak wonna lilia,\nNa imię miała panna Cecylia. }\nTak z nią flirtował, aż przebrał miarę,\nbis\nSkradł jej całusa, ona mu zegarek.\n\n2. Nad modrą Wisłą, goniąc spojrzeniem,\nSiedzi Marianna ze swoim Heniem.\nOn, jak to mówią, jest chłop morowy\nI bezrobotny jest zawodowy. }\nRaz ją poklepie, raz ją pobije -\nbis\nI chwalić Boga, jakoś się żyje.\n\n3. Tak pokochałem swoją Walerię,\nŻe jej kupiłem los na loterię.\nMoja Walerio, w twe szczęście wierzę,\nJak wygrasz stawkę, to się pobierzem. }\nNa los jej padło dwadzieścia tysięcy\nbis\nI jam jej dotąd nie ujrzał więcej.\n\n4. Ojciec Edmunda miał wzniosłe cele -\nNa dobroczynność dawał tak wiele.\nI nieraz mówił: - Mój przyjacielu,\nCzłowiek ma zawsze dążyć do celu. }\nI posłuchali ojca synowie:\nbis\nKażdy ma celę, lecz w Mokotowie.",
-        "sprawdzone": false
+        "tekst": "1. W Saskim Ogrodzie, koło fontanny\nJakiś się facet przysiadł do panny.\nByła niewinna jak wonna lilia,\nNa imię miała panna Cecylia. \n[bis]\nTak z nią flirtował, aż przebrał miarę,\nSkradł jej całusa, ona mu zegarek.\n[/bis]\n\n2. Nad modrą Wisłą, goniąc spojrzeniem,\nSiedzi Marianna ze swoim Heniem.\nOn, jak to mówią, jest chłop morowy\nI bezrobotny jest zawodowy. \n[bis]\nRaz ją poklepie, raz ją pobije \nI chwalić Boga, jakoś się żyje.\n[/bis]\n\n3. Tak pokochałem swoją Walerię,\nŻe jej kupiłem los na loterię.\nMoja Walerio, w twe szczęście wierzę,\nJak wygrasz stawkę, to się pobierzem. \n[bis]\nNa los jej padło dwadzieścia tysięcy\nI jam jej dotąd nie ujrzał więcej.\n[/bis]\n\n4. Ojciec Edmunda miał wzniosłe cele -\nNa dobroczynność dawał tak wiele.\nI nieraz mówił: - Mój przyjacielu,\nCzłowiek ma zawsze dążyć do celu. \n[bis]\nI posłuchali ojca synowie:\nKażdy ma celę, lecz w Mokotowie.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "trojak",
         "tytul": "1. Trojak",
         "region": "Tańce Śląskie",
         "tekst": "1. Zasiali górale owies, owies,\nOd końca do końca, tak jest, tak jest!\nZasiali górale żyto, żyto,\nOd końca do końca wszystko, wszystko!\n\nRef. A mam ci ja mendeliczek, w domu dwa, w domu dwa,\nU sąsiada szwarnych dziewuch gromada, gromada!\nA mam ci ja trzy mendele, w domu dwa, w domu dwa,\nZadna mi się nie podoba, tylko ta, tylko ta!\n\n2. Pożęli górale owies, owies,\nOd końca do końca, tak jest, tak jest!\nPożęli górale żytko, żytko,\nOd końca do końca wszystko, wszystko!\n\nRef. A na polu góraleczek gromada, gromada.\nCzemużeś się wydawała, kiejś młoda, kiejś młoda?\nCzemużeś się wydawała, kiejś mała, kiejś mała?\nBędzie z ciebie gospodyni niedbała, niedbała!",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "od-buczku",
         "tytul": "2. Od buczku",
         "region": "Tańce Śląskie",
-        "tekst": "1. Od buczku do buczku po listeczku,\nPamiętaj, syneczku, o wioneczku.\nO wioneczku, o zielonym, }\nbis 2\nPrzez twoją dziewczynę uwinionym.\n\n2. Gdzie masz tę chusteczkę, codi ci dała,\nCobi ci ją w okienku wyszywała?\nWyszywała, ząbkowała, }\n122 }\nbis\nA ciebie, syneczku, nie dostała.\n\n3. Od buczku do buczku listek drobny,\nPowiedz mi, syneczku, jeśliś dobry.\n-- Poznasz, poznasz moją dobroć, }\nbis\nZapłaczesz, zakrzyczysz do mnie nieroz.\n\n4. Nie będziesz musiała wody nosić,\nBo będziesz jej miała w oczach dosyć.\nWody nosić, drzewa rąbać, }\nbis\nBo ja ci nastarczam o cię łomać.\n\n5. Od buczku do buczku listek drobny.\nPowiedz mi, syneczku: będziesz dobry?\nJeśliś dobry, to przyjdź ku mnie, }\nbis\nDostaniesz niesz gębulki wieczór u mnie.\n\n6. Zachodzi słoneczko ku lasowi,\nNie dawaj gębusi chłopakowi,\n- Jak mam nie dać, kiejch już dała? }\nbis\nBędziesz ty chłopaka pamiętała.\n\n7. Od buczku do buczku listek drobny.\n- Powiedz mi, syneczku: będziesz dobry?\nPoznasz, poznasz jego dobroć, }\nbis\n- Co zrobi, to zrobi tobie na złość.\n\n8. Na buczku listeczki gibają się,\nNiedobryś, syneczku, nie kochasz mnie.\nA ja głupia, uwierzyłam,\nWioneczek we wodzie utopiłam. t } bis",
-        "sprawdzone": false
+        "tekst": "1. Od buczku do buczku po listeczku,\nPamiętaj, syneczku, o wioneczku.\n[bis]\nO wioneczku, o zielonym,\nPrzez twoją dziewczynę uwinionym.\n[/bis]\n\n2. Gdzie masz tę chusteczkę, codi ci dała,\nCobi ci ją w okienku wyszywała?\nWyszywała, ząbkowała, \nA ciebie, syneczku, nie dostała.\n\n3. Od buczku do buczku listek drobny,\nPowiedz mi, syneczku, jeśliś dobry.\n[bis]\n-Poznasz, poznasz moją dobroć, \nZapłaczesz, zakrzyczysz do mnie nieroz.\n[/bis]\n\n4. Nie będziesz musiała wody nosić,\nBo będziesz jej miała w oczach dosyć.\n[bis]\nWody nosić, drzewa rąbać, \nBo ja ci nastarczam o cię łomać.\n[/bis]\n\n5. Od buczku do buczku listek drobny.\nPowiedz mi, syneczku: będziesz dobry?\n[bis]\nJeśliś dobry, to przyjdź ku mnie,\nDostaniesz niesz gębulki wieczór u mnie.\n[/bis]\n\n6. Zachodzi słoneczko ku lasowi,\nNie dawaj gębusi chłopakowi,\n[bis]\n- Jak mam nie dać, kiejch już dała?\nBędziesz ty chłopaka pamiętała.\n[/bis]\n\n7. Od buczku do buczku listek drobny.\n- Powiedz mi, syneczku: będziesz dobry?\n[bis]\nPoznasz, poznasz jego dobroć,\n- Co zrobi, to zrobi tobie na złość.\n[/bis]\n\n8. Na buczku listeczki gibają się,\nNiedobryś, syneczku, nie kochasz mnie.\n[bis]\nA ja głupia, uwierzyłam,\nWioneczek we wodzie utopiłam.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "jak-zech-byl-mlodziencem",
         "tytul": "3. Jak żech był młodzieńcem",
         "region": "Tańce Śląskie",
-        "tekst": "1. Jak żech był młodzieńcem, chodziłech pod wieńcem,\nChodziłech pod wieńcem, pod zielonym.\nJak zech się ożenił, wionek mi się zmienił, } bis\nChodzym se w czopczysku oklapionym.",
-        "sprawdzone": false
+        "tekst": "1. Jak żech był młodzieńcem, chodziłech pod wieńcem,\nChodziłech pod wieńcem, pod zielonym.\n[bis]\nJak zech się ożenił, wionek mi się zmienił,\nChodzym se w czopczysku oklapionym.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "kokotek",
         "tytul": "4. Kokotek",
         "region": "Tańce Śląskie",
-        "tekst": "1. Po czem, stara babo,\nPo czem jajka masz?\nPo dwa, po trzy, po szóstoku\nSprzedawała na jarmarku,\nPo dwa, po trzy, po szóstoku\nSprzedawała raz. }",
-        "sprawdzone": false
+        "tekst": "[bis]\n1. Po czem, stara babo,\nPo czem jajka masz?\n[/bis]\nPo dwa, po trzy, po szóstoku\nSprzedawała na jarmarku,\nPo dwa, po trzy, po szóstoku\nSprzedawała raz. ",
+        "sprawdzone": true
     },
     {
         "id": "nie-bedzie-mnie-glowisia-bolala",
         "tytul": "5. Nie będzie mnie głowisia bolała",
         "region": "Tańce Śląskie",
-        "tekst": "1. Nie będzie mnie glowisia bolała,\nChoć mnie, Jasiu, nie weźmiesz,\nAle bych się rada dowiedziała,\nDo której ty pojedziesz.\nRef.: Pojadę ja do tej, co ma pierścień złoty, }\nA na szyi korale. bis\n\n2. Nie będzie mnie serduszko bolało,\nChoć mnie, Jasiu, nie weźmiesz,\nAle bych się rada dowiedziała,\nDo której ty pojedziesz.\nRef.: Pojadę ja do tej, co ma nowe graty\ngraty bis }\nI puchową pierzynę.",
-        "sprawdzone": false
+        "tekst": "1. Nie będzie mnie glowisia bolała,\nChoć mnie, Jasiu, nie weźmiesz,\nAle bych się rada dowiedziała,\nDo której ty pojedziesz.\n\n\n[bis]\nRef.: Pojadę ja do tej, co ma pierścień złoty,\nA na szyi korale.\n[/bis]\n\n2. Nie będzie mnie serduszko bolało,\nChoć mnie, Jasiu, nie weźmiesz,\nAle bych się rada dowiedziała,\nDo której ty pojedziesz.\n\n\n[bis]\nRef.: Pojadę ja do tej, co ma nowe graty\nI puchową pierzynę.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "przez-las-do-ciebie-dziewucho",
