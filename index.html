@@ -11,6 +11,12 @@
             font-family: sans-serif;
             padding: 20px;
             margin: 0;
+
+            /* BLOKADA ZAZNACZANIA TEKSTU NA PC I TELEFONACH */
+            -webkit-user-select: none;  /* Safari (iOS / macOS) */
+            -moz-user-select: none;     /* Firefox */
+            -ms-user-select: none;      /* IE10+ / Stary Edge */
+            user-select: none;          /* Chrome, Edge, Opera (Android / Windows) */
         }
         .container { max-width: 500px; margin: 0 auto; }
         h1 { color: #1db954; font-size: 24px; margin-bottom: 15px; }
@@ -21,6 +27,25 @@
             box-sizing: border-box; margin-bottom: 15px; font-size: 16px;
         }
         .search-box:focus { outline: 1px solid #1db954; }
+
+        .footer-author {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            font-size: 11px;
+            color: #535353; /* Ciemny szary, bardzo dyskretny */
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        .verified-check {
+            float: right;
+            color: rgba(29, 185, 84, 0.6); /* Przygaszona zieleń */
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1;
+        }
 
         /* Przewijany pasek filtrów */
         .chips-wrapper {
@@ -131,16 +156,39 @@
     </div>
 </div>
 
+    <div id="song-view" class="view">
+        <button class="btn" onclick="showList()">← Powrót do listy</button>
+        <h2 id="song-header" style="margin-bottom: 5px;"></h2>
+        <div id="song-meta" class="song-region"></div>
+        <div id="song-lyrics" class="lyrics"></div>
+    </div>
+
+    <div class="footer-author">Autor: Maksymilian</div>
+</div>
+
 <script>
     let bazyPiosenek = [];
     let wybranyRegion = "Wszystkie";
 
-    async function zaladujBazeDanych() {
+async function zaladujBazeDanych() {
         try {
             const odpowiedz = await fetch('piosenki.json');
             bazyPiosenek = await odpowiedz.json();
+
+            // PRZYWRACANIE FILTRU REGIONU
+            const zapisanyRegion = localStorage.getItem('wybranyRegion');
+            if (zapisanyRegion) {
+                wybranyRegion = zapisanyRegion;
+            }
+
             generujFiltryRegionalne();
             render();
+
+            // PRZYWRACANIE OGLĄDANEJ PIOSENKI
+            const zapisaneIdPiosenki = localStorage.getItem('ostatniaPiosenkaId');
+            if (zapisaneIdPiosenki) {
+                showSong(zapisaneIdPiosenki);
+            }
         } catch (blad) {
             console.error("Nie udało się załadować pliku JSON:", blad);
             document.getElementById('songs-box').innerHTML =
@@ -226,16 +274,23 @@
 
     function setRegion(reg) {
         wybranyRegion = reg;
+        // ZAPISZ REGION DO PAMIĘCI
+        localStorage.setItem('wybranyRegion', reg);
         generujFiltryRegionalne();
         render();
     }
 
-    function showSong(id) {
+function showSong(id) {
         const piosenka = bazyPiosenek.find(p => p.id === id);
         if(!piosenka) return;
 
+        // ZAPISZ ID PIOSENKI DO PAMIĘCI
+        localStorage.setItem('ostatniaPiosenkaId', id);
+
         document.getElementById('song-header').textContent = piosenka.tytul;
-        document.getElementById('song-meta').textContent = piosenka.region;
+
+        const detalSprawdzenia = piosenka.sprawdzone ? '<span class="verified-check">✓</span>' : '';
+        document.getElementById('song-meta').innerHTML = piosenka.region + detalSprawdzenia;
 
         let sformatowanyTekst = piosenka.tekst;
 
@@ -262,6 +317,9 @@
     }
 
     function showList() {
+        // USUŃ PIOSENKĘ Z PAMIĘCI (bo użytkownik sam wrócił do listy)
+        localStorage.removeItem('ostatniaPiosenkaId');
+
         document.getElementById('song-view').className = 'view';
         document.getElementById('list-view').className = 'view active';
     }
