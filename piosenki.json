@@ -1,12 +1,5 @@
 [
     {
-        "id": "a-czemuzes-nie-przyszedl",
-        "tytul": "A czemużeś nie przyszedł",
-        "region": "Rzeszów",
-        "tekst": "1.- A czemużeś nie przyszedł,\nKiedy miesiąc już zeszedł?\n[bis]Ja na ciebie czekała,\nCałą nockę nie spała.[/bis]\n\n 2. A ja stojał za lasem\nZ fujareczką za pasem,\n[bis]Jak zaczęli psi szczekać,\nTo ja zaczął uciekać[/bis]\n\n3. Cóż mi z twego kochania,\nKiej się boisz szczekania?\n[bis]Ja bym do cię leciała,\nWilków bym się nie bała.[/bis]\n\n4.-Psów szczekania nie boję,\nOj, serdeńko ty moje,\n[bis]Jeno ojca i matki,\nCoby nie było zwadki.[/bis]\n\n5. Biegaj, Jasiu, do chaty,\nNiech przychodzą twe swaty,\nProszą pięknie i czule,\nTo dostaną Hanulę,\nProszą pięknie i czule,\nTo dołożą krasulę\n\n6. Na bębenku bum, bum, bum,\nNa fujarce fiu, fiu, fiu,\n[bis]A na trąbce tra, ra, ra,\nJaka ładna z nas para[/bis]\n\n\n\nSzumi jawor, szumi i szumi osika,\nNigdy nie zaginie ludowa muzyka.\n(Adam Niedoba Szumi jawor)",
-        "sprawdzone": true
-    },
-    {
         "id": "a-czyjez-to-dziewcze",
         "tytul": "A czyjeż to dziewcze",
         "region": "Ogólne",
@@ -14,17 +7,31 @@
         "sprawdzone": true
     },
     {
+        "id": "mach",
+        "tytul": "Mach",
+        "region": "Lublin",
+        "tekst": "1. Tańcuj macha, dam ci piróg,\nTańcuj macha, dam ci dwa.\nJednego mi mama dała,\nDrugiegom se upiekła.",
+        "sprawdzone": true
+    },
+    {
+        "id": "nie-mam-kochaneczka",
+        "tytul": "Nie mam kochaneczka",
+        "region": "Lublin",
+        "tekst": "1. Nie mam kochaneczka,\nAle będę miała.\n [bis]Z której ja go strony \nBędę wyglądała?[/bis]\n\n2. Czyli od Radzynia,\n [bis] Czyli od Wohynia,\nCzyli od Bedlnego - \nJasia kochanego?[bis]",
+        "sprawdzone": true
+    },
+    {
+        "id": "osa",
+        "tytul": "Osa",
+        "region": "Lublin",
+        "tekst": "1. Ej, osa, osa, osa,\nPo czemu tatarka?\n [bis]Powiem ci ja, powiem: \n- Po sześć groszy miarka.[/bis]\n\n2. Ej, osa, osa, osa,\nZa moje dwa grosze.\n [bis]Dwa grosze mi wzięli, \nO dziesięć ja proszę.[/bis]\n\n3. Ej, osa, zimna rosa,\nBędzie jutro mróz, mróz.\n [bis]Dobre kluski bez pietruszki, \nLepiej babie na wóz, wóz.[/bis]\n\n4. Ej, moja ty Urszula,\nWartaś ręki króla,\n [bis]Bo masz buzię słodką } bis\nJak czosnek, cebula.[/bis]\n\n5. Ej, spadła mucha z pieca,\nWybiła se zęby.\n[bis]I przystawił jej pan doktór } bis\nPijawki do gęby.[/bis]",
+        "sprawdzone": true
+    },
+    {
         "id": "a-gdzies-moje-kare-kunie",
         "tytul": "A gdzies moje kare kunie",
         "region": "Lublin",
         "tekst": "1. A gdzies moje kare kunie?\nA gdzies moje lijce?\nA gdzies moje zakochanie?\nA gdzies moje serce?\n\n2. Kare kunie so we stajni,\nA na kuniach lijce,\nZakochanie w Ciecierzynie,\nA we świecie serce.\n\n3. A gdzies moja sodzowecka,\nCom sie umywała?\nA gdzies ten mój kochanecek,\nCom sie w nim kochała?\n\n4. A ta moja sodzowecka\nMurawo zarosła,\nZa mojego kochanecka\nInna panna posła.\n\n5. Pochyliła sie wisienka\nZ sadu do jeziora,\nA cemus, ty moja Maniu,\nSmutno, niewesoło?\n\n6. Ach, bida mi, ach, bida mi,\nZe pisać nie umie,\nNapisałabym jo liścik,\nJak sama rozumie.\n\n7. Napisałabym jo liścik,\nCiemno nocka nasła,\nPióro z ręki wyleciało\nI świcka zagasła.",
-        "sprawdzone": true
-    },
-    {
-        "id": "a-ja-sobie-z-gory-jade",
-        "tytul": "A ja sobie z góry jadę",
-        "region": "Rzeszów",
-        "tekst": "1. A ja sobie z góry jade, góry jade,(hej hej z góry jade,)\nRum trajda, rum trajda, z góry jadę,\nMani koníki oba gniade,(hej hej oba gniade)\nhej oba griade\nRum trajda, rum trajda, oba gniade.\n\n2. Oba gniade, oba rysie¹,\nRum trajda, rum trajda, oba rysie,\nBo ja jadę do Marysie,\nRum trajda, rum trajda, do Marysie.\n\n3. Bo Marysia kraczkowianka²,\nRum trajda, rum trajda, kraczkowianka,\nMa fartuszek po kolanka,\nRum trajda, rum trajda, po kolanka.\n\n4. A spódniczkę jeszcze wyżej,\nRum trajda, rum trajda, jeszcze wyżej,\nŻeby chłopcom było bliżej,\nRum trajda, rum trajda, było bliżej.\n\n",
         "sprawdzone": true
     },
     {
@@ -67,6 +74,55 @@
         "tytul": "Chłopcy kołaczyckie",
         "region": "Ogólne",
         "tekst": "1. Chłopcy kołaczyckie, bylibyście ludźmi,\nAle gorzołeczka między wami dudni.\n\n2. Chłopcy kołaczyckie, każcie sobie zagrać,\nTylko se nie dajcie wąsików potargać.\n\n3. Bo wasze wąsiska nie lada, nie lada,\nŻeby ich targala byle jaka dziada.\n\n4. A czy jo to nie jod, czy wódki nie pijoł,\nŻeby lada dziada nade mną wywijoł.\n\n5. Zagrajże mi, skrzypku, a co jo ci każe,\nAlbo ci zapłace, albo ci pokaże.\n\n6. Chłopcy kołaczyckie, nie bójcie sie bitki,\nChoćby wos stargali do nitki, do nitki ",
+        "sprawdzone": false
+    },
+    {
+        "id": "kochanie-kochanie",
+        "tytul": "1. Kochanie, kochanie",
+        "region": "Opoczno",
+        "tekst": "[chl]\n1. Kochanie, kochanie, w której ześ ty stronie?\n[bis]Okes serce moje /bis\nWe łzach nie utonie. [/bis]\n[/chl]\n\n\n[dzi]\n2. Serce nie utonie, ocko nie wypadnie,\n[/dzi]\n[chl]\n[bis]Za tobom, dziewcyno, /bis\nCo tańcujes ładnie. [/bis]\n[/chl]\n\n3. Serce, moje serce, wesołe być nie chce,\n[bis]Ino sie trzepoce /bis\nJak ryba w potoce. [/bis]\n\n4. Siwo gunska, siwo, popielate boki,\n[bis]Byłabym scyńśliwo, /bis \nZeby nie chłopoki. [/bis]\n\n5. Zeby nie chłopoki, nie te kusiciele,\n[bis]Byłabym scyńśliwo /bis\nJak w ogródku ziele. [/bis]\n\n6. Serce, moje serce, na strony sie dzieli,[bis]\nJedno strona płace, /bis\nDrugo sie weseli. [/bis]\n\n7. Jedno strona płace do kochanka swego,\n[bis]Drugo sie weseli /bis\nZ daleka od niego[/bis]\n\n8. Serce, moje serce, lezy na przyciesi,\n[bis]Kochanecki ni mum, /bis\nNikt me nie pociesy. [/bis]\n\n9. Kaminne serce mum, kaminne, kaminne,\n[bis]Do ciebie, dziewcyno, /bis \nNi moze być inne.[/bis]\n\n10. Skorołeś me, Boze, skorołeś, skorołeś,\n[bis]Miołym kochanecke, /bis\nTo mi jum zabrołeś. [/bis]\n\n11. Skorołeś, me Boze, skorołeś me marnie,\n[bis]Kogo jo nie kochum, /bis\nTyn sie do mnie garnie. [/bis]",
+        "sprawdzone": true
+    },
+    {
+        "id": "za-jezioreckiem",
+        "tytul": "2. Za jezioreckiem",
+        "region": "Opoczno",
+        "tekst": "[chl]1. Za jezioreckiem, za bystrom wodom\nZbierała Kasia drobne jagody,[/chl]\n[dzi]Oj, rachu, ciachu,[/dzi]\n[chl] oj, dana, dana,[/chl]\nOj, rachu ciachu, rach, ciach.\n\n\n[dzi]2. Drobne jagody, leśne orzechy,\nAby przebłagać za swoje grzechy,[/dzi]\n[chl]\nOj, rachu, ciachu, oj, dana, dana,\n[/chl]\nOj, rachu, ciachu, rach, ciach.\n",
+        "sprawdzone": true
+    },
+    {
+        "id": "oj-moja-ty-marysiu",
+        "tytul": "3. Oj, moja ty Marysiu",
+        "region": "Opoczno",
+        "tekst": "[chl]\n1. Oj, moja ty Marysiu, moje ulubienie,\n[bis]Oj, cy me bedzies chciała i moje pierścienie? [/bis]\n[/chl]\n\n\n[dzi]\n2. Oj, chciałaby jo, chciała, ale nie takiego,\n[bis]A ładnego, zgrabnego, do kochania mego. [/bis]\n[/dzi]\n\n3. Oj, zeby to Opocno woda nie topiła,\n[bis]Oj, to by opocnianka we złocie chodziła. [/bis]",
+        "sprawdzone": false
+    },
+    {
+        "id": "opocynkie-jo-se-se-krotkie-kiece-nose",
+        "tytul": "4. Opocyńkie jo se se krótkie kiece nose",
+        "region": "Opoczno",
+        "tekst": "[dzi]\n[bis]1. Opocyńskie jo se krótkie kiece nose, [/bis] \n[bis]A chłopcy me wołajom, jo ich sie nie prose. [/bis]\n[/dzi]\n\n\n[chl]\n[bis]\n2. Salol kunik, saloł, podkówecki gubił,  \n[/bis]\n[bis]\nA jom piniunzki traciuł, bom dziewuchy lubił. \n[/bis]\n[/chl]",
+        "sprawdzone": false
+    },
+    {
+        "id": "grojta-muzykanty-z-opocynska-rowno",
+        "tytul": "5. Grojta, muzykanty, z opocyńska równo",
+        "region": "Opoczno",
+        "tekst": "[bis]\n1. Grojta, muzykanty, z opocyńska równo, \n[/bis]\n[bis]\nA wy sie, ludzie, patrzta, jak mi (jej) kiecka fruwo. \n[/bis]\n\n\n[chl]\n[bis]\n2. Kochołem sie w jedny, łuna me nie chciała. \n[/bis]\n[bis]\nAle jom los pokarał, bez chłopa ostała. \n[/bis]\n[/chl]\n\n3. Bodajze cie, Jasiu, tak to me sanujes,\nKochołeś tuja wola cemu obgadujes? \n\n4. Siedziołem se w krzokach, na wode patrzołem,\nA panny sie kumpały, jo wsystko widziołem. \n\n5. Chodzita, chłopoki, jak te woły w brónie, \nDziewuchy chcum tańcować, a dalijze pó nie. ",
+        "sprawdzone": false
+    },
+    {
+        "id": "oj-kare-kunie-kare",
+        "tytul": "6. Oj, kare kunie, kare",
+        "region": "Opoczno",
+        "tekst": "1. Oj, kare kunie, kare, malowane luśnie,\nOj, kiej (jak) se nie pośpiewom, to mi Maryś uśnie.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n2. Oj, patrzta, ludzie, patrzta, jakem cinko w pasie,\nKtóra baba chłopów kocho, to sie nie upasie.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n3. Oj, jechałem z Warszawy, wstumpiłem do Rawy,\nOj, ji kupiłem trzewicki dla moji kośławy.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n4. Oj, kochoj, ty mnie kochoj, mój Jasiuniu, kochoj,\nA ji jo cie nie bede, bo mos duzy nochol.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana.[/bis]\n\n5. Oj, z kaminia na kamiń przeskakuje srocka,\nA ji dziewki me kochajom, bo mom corne ocka.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n6. Oj, nie śpiwoj, nie śpiwoj, bo se nicht nie zycy,\nA ji pomyślom ludzie, ze to krowa rycy.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n7. Oj, ty moja, Marysiu, ładnieś sie ubrała,\nA ji ładniej by ci było, zebyś wianek miała.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n8. Oj, ładnyś ty, chłopoku, jak kwiat na borówce,\nOj, pewnie cie matula kumpali w gnojówce.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]",
+        "sprawdzone": false
+    },
+    {
+        "id": "dyscyk pado",
+        "tytul": "7. Dyscyk pado",
+        "region": "Opoczno",
+        "tekst": "1. Dyscyk pado, rosa siado\n[bis]Na gynstyj lescynie. [/bis] \n[bis]Kochaj scerze, kawalerze,\nAle niezdradliwie.[/bis]\n\n2. Z jinsum stałeś, z jinsum stałeś,\n[bis]Z jinsum rozmawiałeś,[/bis] \n[bis]A tam gdzie sie ogród końcy, \nTam jum całowałeś.[/bis]\n\n3. Nie wierz dziewce, nie wierz dziewce,\n[bis]Jo z krewniackom stałem [/bis] \n[bis]I z tej wielgij ucciwości } bis\nJum pocałowałem.[/bis]\n\n4. Nie kłam, durniu, nie kłam, durniu,\n[bis]Przed mymi łocami, [/bis] \n[bis]Ty mos jinsum, jo jinsygo,\nDo widzynio z nami.[/bis]",
         "sprawdzone": false
     },
     {
@@ -159,13 +215,6 @@
         "region": "Ogólne",
         "tekst": "1. [chl]Dziewczyny, dziewczyny,\nWszystkie żeśta moje,\n[bis]Jak se jedną wezmę,\nO więcej nie stoję.[/bis][/chl]\n\n2. [chl]Dziewczyno kochana,\nPokaż mi kolana,\n[bis]Pokaż mi oboje,\nCzy takie jak moje.[/bis][/chl]\n\n3. [dzi]Z kamienia na kamień\nSkakała kokoszka,\n[bis]Kocham tego chłopca,\nCo dziobaty troszka.[/bis][/dzi]\n\n4. [dzi]Co dziobaty troszka\nI ma siwe oczy,\n[bis]Mało moje serce\nZa nim nie wyskoczy.[/bis][/dzi]\n\n5. [chl]Dziewczyno, krociku,\nŚciskam cię w kąciku,\n[bis]Za rękę, za nogę,\nZa co ino mogę.[/bis][/chl]\n\n\n[dzi]6. Nie będę śpiewała,\nBo mi się już nie chce,\n[bis]Lepiej se zostawię\nNa drugi dzień jeszcze.[/bis][/dzi]",
         "sprawdzone": true
-    },
-    {
-        "id": "dziekuje-muzyce",
-        "tytul": "Dziękuję muzyce",
-        "region": "Rzeszów",
-        "tekst": "1. [bis]Dziękuje muzyce,\nZe tak pięknie grała,\nZeby sie muzyka\nDo nieba dostała[/bis]\n\n2. Do nieba dostala\nNa sam krygolecek,\nNajstarsy muzykant\nI mój marsolecek.\n\n3. Dziękuje muzyce\nZa to piękne granie\nI tobie, dziewcyno,\nZa to tańcowanie.",
-        "sprawdzone": false
     },
     {
         "id": "dziura-w-desce",
@@ -343,13 +392,6 @@
         "sprawdzone": true
     },
     {
-        "id": "jakes-ty-kasiu",
-        "tytul": "Jakeś ty, Kasiu",
-        "region": "Rzeszów",
-        "tekst": "1.- Jakeś ty, Kasiu, bydełko gnała,\nDlaczegoś na nas nie zawołała?\n[bis]\n- Jażem wołała, nie słyszeliście,\nMuzyczka grała, tańcowaliście.\n[/bis]\n\n2.Bydełko, Kasiu, do domu prowadź\nI zaraz przychodź z nami tańcować.\n[bis]\n- Ja bym tam do was kieby do nieba,\nJeno króweczki głodne paść trzeba.\n[/bis]\n\n3. Zostaw bydełko, Kasiu, na roli,\nJeszcze potańczysz z nami do woli.\n[bis]\nWolę tu zostać w polu z krówkami,\nBo mego Jasia nie ma tam z wami.\n[/bis]",
-        "sprawdzone": true
-    },
-    {
         "id": "janicku-janicku",
         "tytul": "Janicku, Janicku",
         "region": "Podhale",
@@ -382,13 +424,6 @@
         "tytul": "Jo do ciebie",
         "region": "Ogólne",
         "tekst": "1.- Jo do ciebie, jo do ciebie,\nJo ci łącke skose,\nJo do ciebie, jo do ciebie\nPrzyjde na łoskose.\n\n- Pocekoj, Jasieńku,\nA dyć nie tak ostro.\nPocekoj jesce rok,\nDziewuchy podrosno.\n\n- Jo tam nie cekom.\n- A dyć nie tak ostro.\n- Nie bede jo cekol,\nNiech ta sobie rosno.\n\n2. Jo do ciebie, jo do ciebie,\nZebyś nie skłodała,\nJo do ciebie, jo do ciebie,\nZebyś buzi dała.\n\n- Pocekoj, Jasieńku,\nNiech wysuse siano.\nPocekoj jesce rok,\nPocekoj na wiano,\n\n- Jo tam nie cekom.\nNiech wysuse siano.\nNie bede jo cekol,\nSom na twoje wiano.\n\n3. Jo u ciebie, jo u ciebie\nBede siano zwoził,\nAle nocko, bede nocko,\nKiej uparty koziel.\n\n- Pocekoj, Jasieńku,\nPocekoj, az wiosno,\nPocekoj, kiej nowe\nŁąki znów wyrosno.\n\n- Jo tam nie cekom.\nPocekoj az wiosno.\nNie bede jo cekoł,\nNiech ta sobie rosno.\n\n4. Oj, nie bede, oj, nie bede\nJo tak długo cekol,\nTo juz bede, to juz bede\nCiebie sie wyrzekoł.\n\n- Kiej tak chcesz, Jasieńku,\nTo juz twojo wolo,\nSiano mom w stodole,\nWis, nie jestem skola.\n[51]",
-        "sprawdzone": true
-    },
-    {
-        "id": "juz-mi-minelo-szesnascie-latek",
-        "tytul": "Już mi minęło szesnaście latek",
-        "region": "Rzeszów",
-        "tekst": "[dzi]\n1. Już mi minęło szesnaście latek,\nTrzeba się wpisać w grono mężatek.\n[bis]\nDalej, chłopcy, dalej żwawo, żwawego,\nNiech ja sobie z was wybiorę jednego.\n[/bis]\n\n2. Stolarza nie chcę, bo robi trumnę,\nJa bym myślała, że zaraz umrę,\n[bis]\nJa stolarza przez to nie chcę, przez trumnę,\nBo ja bym se wciąż myślała, że umrę.\n[/bis]\n\n3. Kowala nie chcę, bo bije młotem,\nMnie by bolała głowisia potem,\n[bis]\nKował w kuźni bije młotem, bo musi,\nMnie się zdaje, że on mnie już ogłuszy.\n[/bis]\n\n4. Murarza nie chcę, bo glinę depce,\nKoszulę zwała, mnie się prać nie chce,\n[bis]\nMnie murarza brać za męża, broń Boże.\nA ja młoda jak jagoda, mój Boże, \n[/bis]\n\n5. Pisarza nie chcę, bo zapisuje\nI z dziewczętami wciąż wysiaduje,\n[bis]\nBo ten pisarz jest pisarstwa uczony,\nPotrzebuje pisareczki za żonę.\n[/bis]\n\n6. Ja chcę młodego, dajże mi, Boże,\nJuż moje serce strzymać nie może,\n[bis]\nBo ten chłopak taki piękny jak róża,\nDajże mi go, Panie Boże, za męża.\n[/bis]\n[/dzi]\n[53]",
         "sprawdzone": true
     },
     {
@@ -430,7 +465,7 @@
         "id": "slonko-sie-znizylo",
         "tytul": "Słonko się zniżyło",
         "region": "Łowicz",
-        "tekst": "[dzi]\n1. Słonko się zniżyło,\nJak zachodzić miało,\nA moje kochanie, a moje kochanie\nZ wiatrem poleciało.\n[/dzi]\nA moje kochanie, mój Boże jedyny,\nZ wiatrem poleciało.\n\n\n[dzi]\n2. Z wiatrem poleciało,\nPopłynęło z wodą,\nA moje łzy w oczach, a moje łzy w oczach\nObeschnąć nie mogą.\n[/dzi]\nA moje łzy w oczach, mój Boże jedyny,\nObeschnąć nie mogą.\n\n\n[chl]\n3. Namówiłbym skałę,\nNamówiłbym wodę,\nA ciebie, dziewczyno, a ciebie, dziewczyno,\nNamówić nie mogę.\n[/chl]\nA ciebie, dziewczyno, mój Boże jedyny,\nNamówić nie mogę.\n\n\n[chl]\n4. Namówiłbym wodę,\nŻeby brzegi rwała,\nA ciebie nie mogę, a ciebie nie mogę,\nŻebyś mnie kochała.\n[/chl]\nA ciebie nie mogę, mój boże jedyny,\nŻebyś mnie kochała.",
+        "tekst": "[dzi]1. Słonko się zniżyło,\nJak zachodzić miało,\nA moje kochanie, a moje kochanie\nZ wiatrem poleciało.\n[/dzi]\nA moje kochanie, mój Boże jedyny,\nZ wiatrem poleciało.\n\n\n[dzi]\n2. Z wiatrem poleciało,\nPopłynęło z wodą,\nA moje łzy w oczach, a moje łzy w oczach\nObeschnąć nie mogą.\n[/dzi]\nA moje łzy w oczach, mój Boże jedyny,\nObeschnąć nie mogą.\n\n\n[chl]\n3. Namówiłbym skałę,\nNamówiłbym wodę,\nA ciebie, dziewczyno, a ciebie, dziewczyno,\nNamówić nie mogę.\n[/chl]\nA ciebie, dziewczyno, mój Boże jedyny,\nNamówić nie mogę.\n\n\n[chl]\n4. Namówiłbym wodę,\nŻeby brzegi rwała,\nA ciebie nie mogę, a ciebie nie mogę,\nŻebyś mnie kochała.\n[/chl]\nA ciebie nie mogę, mój boże jedyny,\nŻebyś mnie kochała.",
         "sprawdzone": false
     },
     {
@@ -483,13 +518,6 @@
         "sprawdzone": false
     },
     {
-        "id": "leje-deszcz-od-rozdzalowa",
-        "tytul": "Leje deszcz od Rozdżałowa",
-        "region": "Chełm",
-        "tekst": "1. Leje deszcz od Rozdżałowa.\nCzymże my się odziejewa?\nTy kożuchem, ja fartuchem, } bis\nPrzytulisz się do mnie brzuchem.\n\n2. Za stodołą pasła bydło,\nRozłożyła motowidło,\nPóki księżyc jeszcze święci, } bis\nChodźta, chłopcy, kręcić nici.",
-        "sprawdzone": false
-    },
-    {
         "id": "idzta-chlopcy-do-diabla",
         "tytul": "1. Idźta, chłopcy, do diabła",
         "region": "Chełm",
@@ -518,6 +546,13 @@
         "sprawdzone": true
     },
     {
+        "id": "leje-deszcz-od-rozdzalowa",
+        "tytul": "Leje deszcz od Rozdżałowa",
+        "region": "Chełm",
+        "tekst": "1. Leje deszcz od Rozdżałowa.\nCzymże my się odziejewa?\nTy kożuchem, ja fartuchem, } bis\nPrzytulisz się do mnie brzuchem.\n\n2. Za stodołą pasła bydło,\nRozłożyła motowidło,\nPóki księżyc jeszcze święci, } bis\nChodźta, chłopcy, kręcić nici.",
+        "sprawdzone": false
+    },
+    {
         "id": "nasza-wies-so-dzys-weseli",
         "tytul": "Nasza wies so dzys weseli",
         "region": "Kaszuby",
@@ -528,7 +563,7 @@
         "id": "mareszka-maruszka",
         "tytul": "Mareszka (Maruszka)",
         "region": "Kaszuby",
-        "tekst": "1. Juch Mareszka (Maruszka), pójdz do tónca,\nNiechże spiewom nie mdze kónca,\nSzoc, Mareszka (Maruszka), trampnij nóżką,\nBądzże dla mnie dobrą wróżką.\n\nRef.: Z tobą, Mareszka (Maruszka), chcelbem pracowac,\nZ tobą, Mareszka (Maruszka), chcę so radowac.\nZ tobą pracowac, z tobą radowac,\nZ tobą cały swiat chcę przewandrowac.\n\n2. Hej, Mareszka (Maruszka), dajże peska,\nBądzże w tóncu prze mnie blesko,\nSzoc, Mareszka (Maruszka), moja dresko,\nZaspiewoma (Zatoncyma) se, Mareszka (Maruszka).\n\nRef.: Z tobą, Mareszka...",
+        "tekst": "1. Juch Maruszka, pójdz do tónca,\nNiechże spiewom nie mdze kónca,\nSzoc, Maruszka, trampnij nóżką,\nBądzże dla mnie dobrą wróżką.\n\nRef.: Z tobą, Mareszka (Maruszka), chcelbem pracowac,\nZ tobą, Mareszka (Maruszka), chcę so radowac.\nZ tobą pracowac, z tobą radowac,\nZ tobą cały swiat chcę przewandrowac.\n\n2. Hej, Mareszka (Maruszka), dajże peska,\nBądzże w tóncu prze mnie blesko,\nSzoc, Mareszka (Maruszka), moja dresko,\nZaspiewoma (Zatoncyma) se, Mareszka (Maruszka).\n\nRef.: Z tobą, Mareszka...",
         "sprawdzone": false
     },
     {
@@ -659,150 +694,129 @@
     },
     {
         "id": "swieci-se-miesiacek",
-        "tytul": "Świeci se miesiącek",
+        "tytul": "1. Świeci se miesiącek",
         "region": "Lachów Sądecki",
-        "tekst": "1. Świeci se miesiącek na pole orane,\nIde do swej lubej dziś na pozegnanie. /bis\n\n2. Niy mom nic, niy mom nic i o nic nie stoje,\nTylko to, co kochom, zeby było moje. /bis",
-        "sprawdzone": false
+        "tekst": "1. Świeci se miesiącek na pole orane,\n[bis]\nIde do swej lubej dziś na pozegnanie.\n[/bis]\n\n2. Niy mom nic, niy mom nic i o nic nie stoje,\n[bis]\nTylko to, co kochom, zeby było moje. /bis\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "w-stawie-ryby",
-        "tytul": "W stawie ryby",
+        "tytul": "2. W stawie ryby",
         "region": "Lachów Sądecki",
         "tekst": "1. W stawie ryby, w lesie grzyby,\nA na jabłoni jabka,\nNie kochej sie we mnie, chłopce,\nBo jo se juz męzatka, horasia!\n\n2. Jakze jo mom cie nie kochać,\nHej, kiedyś tako ladno,\nSuknia na cie jak na pani,\nHej, chustecka jedwabno, horasia!\n\n3. Pokochałem sobie jedną,\nHej, było ludziom zazdrość,\nTeroz bede kochoł śtyry,\nHej, zrobie ludziom na złość, horasia!",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "muzycko-grojze-mi",
-        "tytul": "Muzycko, grojze mi",
+        "tytul": "3. Muzycko, grojze mi",
         "region": "Lachów Sądecki",
         "tekst": "1. Muzycko, grojze mi,\nEj, kobito (dziewcyno), dejze mi\nCyrwone jabłusko,\nEj, co go mos w kieseni.\n\n2. Muzycka mi groło,\nEj, dziewcyna mi doło\nCyrwone jabłusko,\nEj, co w kieseni mioło.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "staro-baba-lachow-sadeckich",
-        "tytul": "Staro baba",
+        "tytul": "4. Staro baba",
         "region": "Lachów Sądecki",
         "tekst": "1. Staro baba w cypcu stanęła przy skrzypku,\nWyscerzyła zęby (ząby): dejze, skrzypku, gęby (gąby).",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "nikto-nom-niy-moze",
-        "tytul": "Nikto nom niy moze",
+        "tytul": "5. Nikto nom niy moze",
         "region": "Lachów Sądecki",
-        "tekst": "1. Nikto nom niy moze za nase piyniązki,\nNikto nom niy moze za nase. Roz!\n\n2. Špiywać i tańcować, kobity (i dziopy ) całować,\nNikto nom niy moze zakozać. Roz!\n\n3. Przedom jo se, przedom konisia i klace,\nA tobie za wionek zapłace. Roz!\n\n4. W polu groch, w polu groch, na nim grochowionka,\nWara, chłopcy, wara od wionka. Roz!",
-        "sprawdzone": false
+        "tekst": "1. Nikto nom niy moze za nase piyniązki,\nNikto nom niy moze za nase. Roz!\n\n2. Špiywać i tańcować, kobity (i dziopy) całować,\nNikto nom niy moze zakozać. Roz!\n\n3. Przedom jo se, przedom konisia i klace,\nA tobie za wionek zapłace. Roz!\n\n4. W polu groch, w polu groch, na nim grochowionka,\nWara, chłopcy, wara od wionka. Roz!",
+        "sprawdzone": true
     },
     {
         "id": "niskowianie-chlopcy",
-        "tytul": "Niskowianie chłopcy",
+        "tytul": "6. Niskowianie chłopcy",
         "region": "Lachów Sądecki",
-        "tekst": "1. Niskowianie chłopcy,\nSządecanie nie psi,\nZabowmy sie razem, } bis\nKie my sie tu ześli.",
-        "sprawdzone": false
+        "tekst": "1. Niskowianie chłopcy,\nSządecanie nie psi,\n[bis]\nZabowmy sie razem, \nKie my sie tu ześli.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "ty-kces-zebym-cie-kochala",
-        "tytul": "Ty kces, zebym cie kochała",
+        "tytul": "7. Ty kces, zebym cie kochała",
         "region": "Lachów Sądecki",
-        "tekst": "1.-Ty kces, zebym cie kochała,\nTy kces, zebym cie kochała, ty kces.\nJo chłopcom nie wierze, } bis\nBo mówiom niescerze\nI tobie, chodoku, nie wierze, nie.\n\n2. Póde bez góry, doliny,\nPóde do ładny dziewcyny, póde.\nPode se do młyna,\nGdzie miysko dziewcyna,\nKtóro bedzie tylko kochała mie. } bis",
-        "sprawdzone": false
+        "tekst": "1.-Ty kces, zebym cie kochała,\nTy kces, zebym cie kochała, ty kces.\n[bis]\nJo chłopcom nie wierze,\nBo mówiom niescerze\nI tobie, chodoku, nie wierze, nie.\n[/bis]\n\n2. Póde bez góry, doliny,\nPóde do ładny dziewcyny, póde.\n[bis]\nPode se do młyna,\nGdzie miysko dziewcyna,\nKtóro bedzie tylko kochała mie.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "krzyzok",
-        "tytul": "Krzyzok",
+        "tytul": "8. Krzyzok",
         "region": "Lachów Sądecki",
         "tekst": "1. Zagrojciez nom krzyzoka,\nDom wom za to szóstoka,\nZagrojciez mi do rana,\nDom wom za to talara.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "jo-se-cygon",
-        "tytul": "Jo se Cygon",
+        "tytul": "9. Jo se Cygon",
         "region": "Lachów Sądecki",
         "tekst": "1. Jo se Cygon, co nic niy mom,\nIno jedną Cyganecke, co z nią lygom\nZ Cyganecką zatańcuje,\nBo mi moja Cyganecka przytupuje.\n\n2. Te Cygany dobre ludzie,\nWychowały Cyganecke we psi budzie.\nCygon, Cygon corne ślypie,\nJo do niego, jo do niego, a on scypie.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "ani-tak-w-kosciele",
-        "tytul": "Ani tak w kościele",
+        "tytul": "10. Ani tak w kościele",
         "region": "Lachów Sądecki",
-        "tekst": "1. Ani tak w kościele\nLorgany nie grajo,\nJak se podegrodcy } bis\nChłopcy zaśpiywajo.",
-        "sprawdzone": false
+        "tekst": "1. Ani tak w kościele\nLorgany nie grajo,\n[bis]\nJak se podegrodcy\nChłopcy zaśpiywajo.\n[/bis]",
+        "sprawdzone": true
     },
     {
         "id": "hej-chlopcy-hej-chlopcy",
-        "tytul": "Hej, chłopcy, hej, chłopcy",
+        "tytul": "11. Hej, chłopcy, hej, chłopcy",
         "region": "Lachów Sądecki",
         "tekst": "1. Hej, chłopcy, hej, chłopcy,\nKozcie sobie zagrać,\nIno se nie dojcie\nCupryny łobtargać.\n\n2. Naso cuprynecka\nNie lada, nie lada,\nZeby jo targała\nByle jako dziada.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "siwy-kon-siwy-kon",
-        "tytul": "Siwy kóń, siwy kóń",
+        "tytul": "12. Siwy kóń, siwy kóń",
         "region": "Lachów Sądecki",
-        "tekst": "1. Siwy kóń, siwy kóń,\nZieluno uzdecka,\nSpodobała mi sie\nKubali córecka.",
+        "tekst": "1. Siwy kóń, siwy kóń,\nZieluno uzdecka,\n[bis]\nSpodobała mi sie\nKubali córecka.\n[/bis]",
         "sprawdzone": false
     },
     {
         "id": "spiywalabym-jako-tako",
-        "tytul": "Śpiywałabym jako tako",
+        "tytul": "13. Śpiywałabym jako tako",
         "region": "Lachów Sądecki",
         "tekst": "1. Śpiywałabym jako tako,\nZebym była niescyrbato.\nAle nutka mi sie psuje,\nBo scyrbomi wylatuje.\n\n2. Ejze, ino, ejze, jesce,\nDałaś gęmby (gąby), dajze jesce.\nDałaś gęby (gąby) bogacowi,\nDajze i mie, biydakowi.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "cerwuno-chustecka",
-        "tytul": "Cerwuno chustecka",
+        "tytul": "14. Cerwuno chustecka",
         "region": "Lachów Sądecki",
         "tekst": "1. Cerwuno chustecka - pozłocone kraje,\nJeno mi sie ino podegrodziok zdaje.\n\n2. Gdzie jest cysto woda, tam koniki piją,\nGdzie są ładne ponny, tam sie chłopcy biją.\n\n3. Nie bijcie sie, chłopcy, na Boga Świentygo,\nNie póde za wsystkich, ino za jednygo.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "ej-siwy-konik-siwy",
-        "tytul": "Ej, siwy kónik, siwy",
+        "tytul": "15. Ej, siwy kónik, siwy",
         "region": "Lachów Sądecki",
         "tekst": "1. Ej, siwy kónik, siwy,\nEj, malowane siodło,\nJakieś mie to licho,\nEj, do dziewcyny wiodło, husia, hulasia.\n\n2. Ej, cóz sie bede topił,\nMaryny nie odganioł,\nPóde jo ku Mońce,\nEj potem sie ozanio, husia, hulasia.\n\n3. Ej, cisne jo se, cisne,\nEj, chustecko do Wisły,\nSama do mie przyjdzie,\nO której jo pomyśle, husia, hulasia.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "ej-uciek-mi-konicek",
-        "tytul": "Ej, uciek mi kónicek",
+        "tytul": "16. Ej, uciek mi kónicek",
         "region": "Lachów Sądecki",
         "tekst": "1. Ej, uciek mi kónicek,\nEj, z zielonego pola,\nEj, pomóz mi go złapać,\nEj, Kasinecko moja.\n\n2. Ej, jakbym ci pomogła,\nEj, ludzie by sie śmiali,\nEj, ześmy obydwoje,\nEj, konisia łapali.\n\n3. Ej, kónicek na łące,\nEj, nie daje sie złapać,\nEj, cekoj, paradnico,\nEj, bedzies na mie płakać.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "jo-jest-polak",
-        "tytul": "Jo jest Polak",
+        "tytul": "17. Jo jest Polak",
         "region": "Lachów Sądecki",
         "tekst": "1. Jo jest Polak, a tyś Polka,\nNie sięgoj mi do rozporka,\nBo w rozporku są talary,\nCo mi dziopy nazdawały.\n\n2. Jo jest Polak, a tyś Polka,\nŁobie my są Polusie.\nJakbyś była dobro Polka,\nDałabyś mi gąbusie.",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "krakowiaki-sadeckie-krakowicka-spiywom",
-        "tytul": "Krakowiaki sądeckie (Krakowicka śpiywom)",
+        "tytul": "18. Krakowiaki sądeckie (Krakowicka śpiywom)",
         "region": "Lachów Sądecki",
         "tekst": "1. Krakowioka śpiywom,\nKrakowioka grojcie,\nBo mie krakowiocek\nWeseli na świecie.\n\n2. Zagrojze mi, zagroj,\nAle zagroj ładnie,\nA jo ci zapłace,\nAz ci capka spadnie.\n\n3. Jak jo se zaśpiywom\nW sządeckiej dolinie,\nTo sie na Osowiu\nFijołek ozwinie.\n\n4. Jak jo se zaśpiywom,\nJak jo se zawiode,\nUsłysy mie dziewcok,\nChoć najdalej bede.\n\n5. Zagroj mi, muzycko,\nZagroj krakowioka,\nBo jak mi nie zagros,\nPoznos Sządecoka.\n\n6. Krakowioka śpiywom,\nInnego nie umie,\nTeraźniejsyj mody\nWcale nie rozumie.\n\n7. Zagroj mi, muzycko,\nKrakowioka z nogi,\nPójdą wiechcie z butów\ndrzozgi z podłogi!\n\n8. Zagroj mi, muzycko,\nKrakowioka tego,\nA jo se zaprose\nKolegów do niego.",
-        "sprawdzone": false
-    },
-    {
-        "id": "mach",
-        "tytul": "Mach",
-        "region": "Lublin",
-        "tekst": "1. Tańcuj macha, dam ci piróg,\nTańcuj macha, dam ci dwa.\nJednego mi mama dała,\nDrugiegom se upiekła.",
-        "sprawdzone": false
-    },
-    {
-        "id": "nie-mam-kochaneczka",
-        "tytul": "Nie mam kochaneczka",
-        "region": "Lublin",
-        "tekst": "1. Nie mam kochaneczka,\nAle będę miała.\n [bis]Z której ja go strony \nBędę wyglądała?[/bis]\n\n2. Czyli od Radzynia,\n [bis] Czyli od Wohynia,\nCzyli od Bedlnego - \nJasia kochanego?[bis]",
-        "sprawdzone": false
-    },
-    {
-        "id": "osa",
-        "tytul": "Osa",
-        "region": "Lublin",
-        "tekst": "1. Ej, osa, osa, osa,\nPo czemu tatarka?\n [bis]Powiem ci ja, powiem: \n- Po sześć groszy miarka.[/bis]\n\n2. Ej, osa, osa, osa,\nZa moje dwa grosze.\n [bis]Dwa grosze mi wzięli, \nO dziesięć ja proszę.[/bis]\n\n3. Ej, osa, zimna rosa,\nBędzie jutro mróz, mróz.\n [bis]Dobre kluski bez pietruszki, \nLepiej babie na wóz, wóz.[/bis]\n\n4. Ej, moja ty Urszula,\nWartaś ręki króla,\n [bis]Bo masz buzię słodką } bis\nJak czosnek, cebula.[/bis]\n\n5. Ej, spadła mucha z pieca,\nWybiła se zęby.\n[bis]I przystawił jej pan doktór } bis\nPijawki do gęby.[/bis]",
-        "sprawdzone": false
+        "sprawdzone": true
     },
     {
         "id": "z-tamtej-strony-wody",
@@ -844,55 +858,6 @@
         "tytul": "6. A zagrejta, muzykanty",
         "region": "Łowicz",
         "tekst": "1. A zagrejta, muzykanty, ale ładnygo łoberka,\nA niech sobie potańcuje ta łowicko kawalerka.\nA ty, łody, łoj, ty, łody, a ty łody, łoj, ty, łody (ta dana).\n\n2. A zagrejta, muzykanty, a to bede tańcowała,\nNózki mi sie rozchodzieły, buzia mi sie rozśpiewała.\nA ty, łody...\n\n3. A zagrejta, muzykanty, ale tak po staroświecku,\nAle bo to młody pannie, ale nie małymu dziecku.\nA ty, łody...\n\n4. Muzykancie, zagrej lepi, zasadze ci zogun rzepy\n1 kartofli ci przysadze, juz ci wincy nie poradze.\nA ty, łody...\n\n5. Zagrejze mi, mój kochany, bo jo w kiecce pozycany,\nZagrejze mi, jak mos zagrać, bo jo kiecke muse łoddać.\nA ty, łody...",
-        "sprawdzone": false
-    },
-    {
-        "id": "kochanie-kochanie",
-        "tytul": "1. Kochanie, kochanie",
-        "region": "Opoczno",
-        "tekst": "[chl]\n1. Kochanie, kochanie, w której ześ ty stronie?\n[bis]Okes serce moje /bis\nWe łzach nie utonie. [/bis]\n[/chl]\n\n\n[dzi]\n2. Serce nie utonie, ocko nie wypadnie,\n[/dzi]\n[chl]\n[bis]Za tobom, dziewcyno, /bis\nCo tańcujes ładnie. [/bis]\n[/chl]\n\n3. Serce, moje serce, wesołe być nie chce,\n[bis]Ino sie trzepoce /bis\nJak ryba w potoce. [/bis]\n\n4. Siwo gunska, siwo, popielate boki,\n[bis]Byłabym scyńśliwo, /bis \nZeby nie chłopoki. [/bis]\n\n5. Zeby nie chłopoki, nie te kusiciele,\n[bis]Byłabym scyńśliwo /bis\nJak w ogródku ziele. [/bis]\n\n6. Serce, moje serce, na strony sie dzieli,[bis]\nJedno strona płace, /bis\nDrugo sie weseli. [/bis]\n\n7. Jedno strona płace do kochanka swego,\n[bis]Drugo sie weseli /bis\nZ daleka od niego[/bis]\n\n8. Serce, moje serce, lezy na przyciesi,\n[bis]Kochanecki ni mum, /bis\nNikt me nie pociesy. [/bis]\n\n9. Kaminne serce mum, kaminne, kaminne,\n[bis]Do ciebie, dziewcyno, /bis \nNi moze być inne.[/bis]\n\n10. Skorołeś me, Boze, skorołeś, skorołeś,\n[bis]Miołym kochanecke, /bis\nTo mi jum zabrołeś. [/bis]\n\n11. Skorołeś, me Boze, skorołeś me marnie,\n[bis]Kogo jo nie kochum, /bis\nTyn sie do mnie garnie. [/bis]",
-        "sprawdzone": false
-    },
-    {
-        "id": "za-jezioreckiem",
-        "tytul": "2. Za jezioreckiem",
-        "region": "Opoczno",
-        "tekst": "[chl]1. Za jezioreckiem, za bystrom wodom\nZbierała Kasia drobne jagody,[/chl]\n[dzi]Oj, rachu, ciachu,[/dzi]\n[chl] oj, dana, dana,[/chl]\nOj, rachu ciachu, rach, ciach.\n\n\n[dzi]2. Drobne jagody, leśne orzechy,\nAby przebłagać za swoje grzechy,[/dzi]\n[chl]\nOj, rachu, ciachu, oj, dana, dana,\n[/chl]\nOj, rachu, ciachu, rach, ciach.\n",
-        "sprawdzone": false
-    },
-    {
-        "id": "oj-moja-ty-marysiu",
-        "tytul": "3. Oj, moja ty Marysiu",
-        "region": "Opoczno",
-        "tekst": "[chl]\n1. Oj, moja ty Marysiu, moje ulubienie,\n[bis]Oj, cy me bedzies chciała i moje pierścienie? [/bis]\n[/chl]\n\n\n[dzi]\n2. Oj, chciałaby jo, chciała, ale nie takiego,\n[bis]A ładnego, zgrabnego, do kochania mego. [/bis]\n[/dzi]\n\n3. Oj, zeby to Opocno woda nie topiła,\n[bis]Oj, to by opocnianka we złocie chodziła. [/bis]",
-        "sprawdzone": false
-    },
-    {
-        "id": "opocynkie-jo-se-se-krotkie-kiece-nose",
-        "tytul": "4. Opocyńkie jo se se krótkie kiece nose",
-        "region": "Opoczno",
-        "tekst": "[dzi]\n[bis]1. Opocyńskie jo se krótkie kiece nose, [/bis] \n[bis]A chłopcy me wołajom, jo ich sie nie prose. [/bis]\n[/dzi]\n\n\n[chl]\n[bis]\n2. Salol kunik, saloł, podkówecki gubił,  \n[/bis]\n[bis]\nA jom piniunzki traciuł, bom dziewuchy lubił. \n[/bis]\n[/chl]",
-        "sprawdzone": false
-    },
-    {
-        "id": "grojta-muzykanty-z-opocynska-rowno",
-        "tytul": "5. Grojta, muzykanty, z opocyńska równo",
-        "region": "Opoczno",
-        "tekst": "[bis]\n1. Grojta, muzykanty, z opocyńska równo, \n[/bis]\n[bis]\nA wy sie, ludzie, patrzta, jak mi (jej) kiecka fruwo. \n[/bis]\n\n\n[chl]\n[bis]\n2. Kochołem sie w jedny, łuna me nie chciała. \n[/bis]\n[bis]\nAle jom los pokarał, bez chłopa ostała. \n[/bis]\n[/chl]\n\n3. Bodajze cie, Jasiu, tak to me sanujes,\nKochołeś tuja wola cemu obgadujes? \n\n4. Siedziołem se w krzokach, na wode patrzołem,\nA panny sie kumpały, jo wsystko widziołem. \n\n5. Chodzita, chłopoki, jak te woły w brónie, \nDziewuchy chcum tańcować, a dalijze pó nie. ",
-        "sprawdzone": false
-    },
-    {
-        "id": "oj-kare-kunie-kare",
-        "tytul": "6. Oj, kare kunie, kare",
-        "region": "Opoczno",
-        "tekst": "1. Oj, kare kunie, kare, malowane luśnie,\nOj, kiej (jak) se nie pośpiewom, to mi Maryś uśnie.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n2. Oj, patrzta, ludzie, patrzta, jakem cinko w pasie,\nKtóra baba chłopów kocho, to sie nie upasie.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n3. Oj, jechałem z Warszawy, wstumpiłem do Rawy,\nOj, ji kupiłem trzewicki dla moji kośławy.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n4. Oj, kochoj, ty mnie kochoj, mój Jasiuniu, kochoj,\nA ji jo cie nie bede, bo mos duzy nochol.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana.[/bis]\n\n5. Oj, z kaminia na kamiń przeskakuje srocka,\nA ji dziewki me kochajom, bo mom corne ocka.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n6. Oj, nie śpiwoj, nie śpiwoj, bo se nicht nie zycy,\nA ji pomyślom ludzie, ze to krowa rycy.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n7. Oj, ty moja, Marysiu, ładnieś sie ubrała,\nA ji ładniej by ci było, zebyś wianek miała.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]\n\n8. Oj, ładnyś ty, chłopoku, jak kwiat na borówce,\nOj, pewnie cie matula kumpali w gnojówce.\n[bis]Oj, dana, oj, da dana, oj, da dana, dana. [/bis]",
-        "sprawdzone": false
-    },
-    {
-        "id": "dyscyk pado",
-        "tytul": "7. Dyscyk pado",
-        "region": "Opoczno",
-        "tekst": "1. Dyscyk pado, rosa siado\n[bis]Na gynstyj lescynie. [/bis] \n[bis]Kochaj scerze, kawalerze,\nAle niezdradliwie.[/bis]\n\n2. Z jinsum stałeś, z jinsum stałeś,\n[bis]Z jinsum rozmawiałeś,[/bis] \n[bis]A tam gdzie sie ogród końcy, \nTam jum całowałeś.[/bis]\n\n3. Nie wierz dziewce, nie wierz dziewce,\n[bis]Jo z krewniackom stałem [/bis] \n[bis]I z tej wielgij ucciwości } bis\nJum pocałowałem.[/bis]\n\n4. Nie kłam, durniu, nie kłam, durniu,\n[bis]Przed mymi łocami, [/bis] \n[bis]Ty mos jinsum, jo jinsygo,\nDo widzynio z nami.[/bis]",
         "sprawdzone": false
     },
     {
@@ -980,13 +945,6 @@
         "sprawdzone": true
     },
     {
-        "id": "nad-rzeszowska-jasiolka",
-        "tytul": "Nad rzeszowską Jasiołką",
-        "region": "Rzeszów",
-        "tekst": "[bis]1. Nad rzeszowską Jasiołką \nZieleni się gęsty las.[/bis] \n[bis]Tam dziewczyna stała, \nNa drogę patrzała, \nCzy nie jedzie z pola Jaś.[/bis]\n\n\n[bis]2. Jedzie Jasio, jedzie Jaś, \nWiezie zboża pełen wóz.[/bis] \n[bis]Kasieńkę zobaczył, \nZ wozika zeskoczył,\nWręczył Kasi bukiet róż.[/bis]\n\n\n[bis]3. Jedzie Jasio, jedzie Jaś, \nZa nim chłopców gromada.[/bis] \n[bis]Z muzyką wracają, \nGrają i śpiewają, \nBędzie wielka parada.[/bis]",
-        "sprawdzone": true
-    },
-    {
         "id": "hejze-ino",
         "tytul": "2. Hejze, ino",
         "region": "Rzeszów",
@@ -1013,6 +971,48 @@
         "region": "Rzeszów",
         "tekst": "[bis]1. Któryndy, któryndy, droga na Porymby? [/bis] \n[bis]Bo mi porymbianka obiecała gymby. [/bis]\n\n\n[bis] 2. Obiecała gymby, obiecała pyska. [/bis] \n[bis]Któryndy, któryndy na Porymby ściyzka? [/bis]",
         "sprawdzone": true
+    },
+    {
+        "id": "nad-rzeszowska-jasiolka",
+        "tytul": "Nad rzeszowską Jasiołką",
+        "region": "Rzeszów",
+        "tekst": "[bis]1. Nad rzeszowską Jasiołką \nZieleni się gęsty las.[/bis] \n[bis]Tam dziewczyna stała, \nNa drogę patrzała, \nCzy nie jedzie z pola Jaś.[/bis]\n\n\n[bis]2. Jedzie Jasio, jedzie Jaś, \nWiezie zboża pełen wóz.[/bis] \n[bis]Kasieńkę zobaczył, \nZ wozika zeskoczył,\nWręczył Kasi bukiet róż.[/bis]\n\n\n[bis]3. Jedzie Jasio, jedzie Jaś, \nZa nim chłopców gromada.[/bis] \n[bis]Z muzyką wracają, \nGrają i śpiewają, \nBędzie wielka parada.[/bis]",
+        "sprawdzone": true
+    },
+    {
+        "id": "juz-mi-minelo-szesnascie-latek",
+        "tytul": "Już mi minęło szesnaście latek",
+        "region": "Rzeszów",
+        "tekst": "[dzi]\n1. Już mi minęło szesnaście latek,\nTrzeba się wpisać w grono mężatek.\n[bis]\nDalej, chłopcy, dalej żwawo, żwawego,\nNiech ja sobie z was wybiorę jednego.\n[/bis]\n\n2. Stolarza nie chcę, bo robi trumnę,\nJa bym myślała, że zaraz umrę,\n[bis]\nJa stolarza przez to nie chcę, przez trumnę,\nBo ja bym se wciąż myślała, że umrę.\n[/bis]\n\n3. Kowala nie chcę, bo bije młotem,\nMnie by bolała głowisia potem,\n[bis]\nKował w kuźni bije młotem, bo musi,\nMnie się zdaje, że on mnie już ogłuszy.\n[/bis]\n\n4. Murarza nie chcę, bo glinę depce,\nKoszulę zwała, mnie się prać nie chce,\n[bis]\nMnie murarza brać za męża, broń Boże.\nA ja młoda jak jagoda, mój Boże, \n[/bis]\n\n5. Pisarza nie chcę, bo zapisuje\nI z dziewczętami wciąż wysiaduje,\n[bis]\nBo ten pisarz jest pisarstwa uczony,\nPotrzebuje pisareczki za żonę.\n[/bis]\n\n6. Ja chcę młodego, dajże mi, Boże,\nJuż moje serce strzymać nie może,\n[bis]\nBo ten chłopak taki piękny jak róża,\nDajże mi go, Panie Boże, za męża.\n[/bis]\n[/dzi]\n[53]",
+        "sprawdzone": true
+    },
+    {
+        "id": "a-ja-sobie-z-gory-jade",
+        "tytul": "A ja sobie z góry jadę",
+        "region": "Rzeszów",
+        "tekst": "1. A ja sobie z góry jade, góry jade,(hej hej z góry jade,)\nRum trajda, rum trajda, z góry jadę,\nMani koníki oba gniade,(hej hej oba gniade)\nhej oba griade\nRum trajda, rum trajda, oba gniade.\n\n2. Oba gniade, oba rysie¹,\nRum trajda, rum trajda, oba rysie,\nBo ja jadę do Marysie,\nRum trajda, rum trajda, do Marysie.\n\n3. Bo Marysia kraczkowianka²,\nRum trajda, rum trajda, kraczkowianka,\nMa fartuszek po kolanka,\nRum trajda, rum trajda, po kolanka.\n\n4. A spódniczkę jeszcze wyżej,\nRum trajda, rum trajda, jeszcze wyżej,\nŻeby chłopcom było bliżej,\nRum trajda, rum trajda, było bliżej.\n\n",
+        "sprawdzone": true
+    },
+    {
+        "id": "jakes-ty-kasiu",
+        "tytul": "Jakeś ty, Kasiu",
+        "region": "Rzeszów",
+        "tekst": "1.- Jakeś ty, Kasiu, bydełko gnała,\nDlaczegoś na nas nie zawołała?\n[bis]\n- Jażem wołała, nie słyszeliście,\nMuzyczka grała, tańcowaliście.\n[/bis]\n\n2.Bydełko, Kasiu, do domu prowadź\nI zaraz przychodź z nami tańcować.\n[bis]\n- Ja bym tam do was kieby do nieba,\nJeno króweczki głodne paść trzeba.\n[/bis]\n\n3. Zostaw bydełko, Kasiu, na roli,\nJeszcze potańczysz z nami do woli.\n[bis]\nWolę tu zostać w polu z krówkami,\nBo mego Jasia nie ma tam z wami.\n[/bis]",
+        "sprawdzone": true
+    },
+    {
+        "id": "a-czemuzes-nie-przyszedl",
+        "tytul": "A czemużeś nie przyszedł",
+        "region": "Rzeszów",
+        "tekst": "1.- A czemużeś nie przyszedł,\nKiedy miesiąc już zeszedł?\n[bis]Ja na ciebie czekała,\nCałą nockę nie spała.[/bis]\n\n 2. A ja stojał za lasem\nZ fujareczką za pasem,\n[bis]Jak zaczęli psi szczekać,\nTo ja zaczął uciekać[/bis]\n\n3. Cóż mi z twego kochania,\nKiej się boisz szczekania?\n[bis]Ja bym do cię leciała,\nWilków bym się nie bała.[/bis]\n\n4.-Psów szczekania nie boję,\nOj, serdeńko ty moje,\n[bis]Jeno ojca i matki,\nCoby nie było zwadki.[/bis]\n\n5. Biegaj, Jasiu, do chaty,\nNiech przychodzą twe swaty,\nProszą pięknie i czule,\nTo dostaną Hanulę,\nProszą pięknie i czule,\nTo dołożą krasulę\n\n6. Na bębenku bum, bum, bum,\nNa fujarce fiu, fiu, fiu,\n[bis]A na trąbce tra, ra, ra,\nJaka ładna z nas para[/bis]\n\n\n\nSzumi jawor, szumi i szumi osika,\nNigdy nie zaginie ludowa muzyka.\n(Adam Niedoba Szumi jawor)",
+        "sprawdzone": true
+    },
+    {
+        "id": "dziekuje-muzyce",
+        "tytul": "Dziękuję muzyce",
+        "region": "Rzeszów",
+        "tekst": "1. [bis]Dziękuje muzyce,\nZe tak pięknie grała,\nZeby sie muzyka\nDo nieba dostała[/bis]\n\n2. Do nieba dostala\nNa sam krygolecek,\nNajstarsy muzykant\nI mój marsolecek.\n\n3. Dziękuje muzyce\nZa to piękne granie\nI tobie, dziewcyno,\nZa to tańcowanie.",
+        "sprawdzone": false
     },
     {
         "id": "w-pietie-mamy",
@@ -1095,21 +1095,21 @@
         "id": "rada-nierada",
         "tytul": "1. Rada nierada",
         "region": "Wielkopolska",
-        "tekst": "[bis][dzi]1. Rada nierada wyszła za dziada,[/dzi]\nTaka młoda dziewczyna.[/bis] \n[bis][dzi]Z dziada tylko szczere kości,\n(A u dziada same kości,) }\nZal mi, Boże, mej młodości.[/dzi]\nCo ja będę robiła? [/bis]\n\n[bis][dzi]2. Co bym ja zrobiła, to bym ja zrobiła,[/dzi]\nBylem dziada pozbyła.[/bis] \n[bis][dzi]Dam ja chłopcom dwa dukaty,\nNiech połamią dziadu gnaty,[/dzi]\nJa się będę bawiła. [/bis]\n\n3. Kupię sobie wózek, nałożę kamieni,\nBędę dziadem woziła.\nCiąg, ciąg, dziadzie, kiejś się podjął,\nNiech ja biedy nie mam z tobą,\nTaka młoda dziewczyna. } bis",
+        "tekst": "[bis][dzi]1. Rada nierada wyszła za dziada,[/dzi]\nTaka młoda dziewczyna.[/bis] \n[bis][dzi]Z dziada tylko szczere kości,\n(A u dziada same kości,) }\nZal mi, Boże, mej młodości.[/dzi]\nCo ja będę robiła? [/bis]\n\n\n[bis][dzi]2. Co bym ja zrobiła, to bym ja zrobiła,[/dzi]\nBylem dziada pozbyła.[/bis] \n[bis][dzi]Dam ja chłopcom dwa dukaty,\nNiech połamią dziadu gnaty,[/dzi]\nJa się będę bawiła. [/bis]\n\n3. Kupię sobie wózek, nałożę kamieni,\nBędę dziadem woziła.\nCiąg, ciąg, dziadzie, kiejś się podjął,\nNiech ja biedy nie mam z tobą,\nTaka młoda dziewczyna. } bis",
         "sprawdzone": true
     },
     {
         "id": "jakem-jechal-od-mojej-kochanki",
         "tytul": "2. Jakem jechał od mojej kochanki",
         "region": "Wielkopolska",
-        "tekst": "[bis][chl]1. Jakem jechał od swojej kochanki,\nOd swojej kochanki,\nŚwiecił miesiąc wysoko.[/bis] \n[bis]Ona stała, okienkiem patrzała, \nCzym ujechał daleko.[/bis]\n\n2. Ujechałem ze cztery staj lasu,\nZe cztery staj lasu,\nbis\nOna za mną wołała:\n- A wróćże się, mój najmilszy Jasiu! /bis\nCzymżem cię rozgniewała? } bis\n\n3. Oj, nie wrócę, Kasieńko, do ciebie,\nKasieńko, do ciebie\nbis\nI powiem ci, dlaczego.\nJakem jechał przez twoje podwórko, /bis\nbis\nWidziałem tam innego.\n\n4. Jakem jechał przez twoje podwórko,\nPrzez twoje podwórko, }\nbis\nStojał jawor zielony.\nTyś łamała gałązkę innemu, /bis\nA ja byłem zdradzony. } bis\n\n5. Ta gałązka to dla przyjaciela,\nTo dla przyjaciela,\nMój Jasieńku kochany,\nbis\nA dla ciebie z tej mojej główeczki /bis\nTen wianeczek ruciany.[/chl]",
+        "tekst": "[bis][chl]1. Jakem jechał od swojej kochanki,\nOd swojej kochanki,\nŚwiecił miesiąc wysoko.[/bis] \n[bis]Ona stała, okienkiem patrzała, \nCzym ujechał daleko.[/bis][/chl]\n\n\n[bis]\n2. Ujechałem ze cztery staj lasu,\nZe cztery staj lasu,\nOna za mną wołała:\n[/bis]\n[bis]\n- A wróćże się, mój najmilszy Jasiu!\nCzymżem cię rozgniewała?\n[/bis]\n\n\n[bis]\n3. Oj, nie wrócę, Kasieńko, do ciebie,\nKasieńko, do ciebie\nI powiem ci, dlaczego.\n[/bis]\n[bis]\nJakem jechał przez twoje podwórko, \nWidziałem tam innego.\n[/bis]\n\n\n[bis]\n4. Jakem jechał przez twoje podwórko,\nPrzez twoje podwórko, \nStojał jawor zielony.\n[/bis]\n[bis]\nTyś łamała gałązkę innemu,\nA ja byłem zdradzony.\n[/bis]\n\n\n[bis]\n5. Ta gałązka to dla przyjaciela,\nTo dla przyjaciela,\nMój Jasieńku kochany,\n[/bis]\n[bis]\nA dla ciebie z tej mojej główeczki \nTen wianeczek ruciany.\n[/bis]",
         "sprawdzone": true
     },
     {
         "id": "marynia",
         "tytul": "3. Marynia",
         "region": "Wielkopolska",
-        "tekst": "[chl]1. Maryniu, Maryniu, Staś jedzie. [/chl]\n[dzi] Do kogo, do kogo?[/dzi]\n[chl] - Do ciebie.[/chl]\n[dzi] A jaki?[/dzi]\n[chl]Cherlawy.[/chl]\n [dzi]Nie chcę go, nie chcę go, bo stary.[/dzi]\n\n2. Maryniu, Maryniu, Jaś jedzie.\n- Do kogo, do kogo? - Do ciebie.\n- A jaki-Bogaty lech wejdzie do chaty! } t bis",
+        "tekst": "[chl]1. Maryniu, Maryniu, Staś jedzie. [/chl]\n[dzi] Do kogo, do kogo?[/dzi]\n[chl] - Do ciebie.[/chl]\n[dzi] A jaki?[/dzi]\n[chl]Cherlawy.[/chl]\n [dzi]Nie chcę go, nie chcę go, bo stary.[/dzi]\n\n\n[chl]\n2. Maryniu, Maryniu, Jaś jedzie.\n[/chl]\n[dzi]\n- Do kogo, do kogo? \n[/dzi]\n[chl]\n- Do ciebie.\n[/chl]\n[dzi]\n- A jaki\n[/dzi]\n[chl]\n- Bogaty \n[/chl]\n[dzi]\n- Niech wejdzie, niech wejdzie do chaty!\n[/dzi]",
         "sprawdzone": true
     },
     {
@@ -1172,14 +1172,14 @@
         "id": "oto-idzie-pierwsza-para",
         "tytul": "3. Oto idzie pierwsza para",
         "region": "Mieszczanie Żywieccy",
-        "tekst": "1. Oto idzie pierwsza para:\nŻwawy Maciej i Barbara,\nI Walenty, i Teresa \nTeż tańcują poloneza. \n\n\n\n2. Piękne były ojców stroje,\nTwarde życie, obyczaje.\nPotrawy proste jadali,\nW pocie czoła pracowali.\n\n3. Po robocie w wolnej chwili\nDo zabawy chętni byli,\nMiodek, swojskie wino pili,\nKołaczami się raczyli.\n\n4. Strój żywiecki z piękna słynie,\nNie tylko w polskiej krainie.\nZłote czepce, słuckie pasy\nSą słynniejsze nad atlasy.\n\n5. Ręką żywczan to robione\nI przez wieki upiększone.\nSzanujcie je przeto, ludzie,\nBo to przodków praca w trudzie. \n\n6. Przodków zwyczaje wskrzeszamy\nI do młodzieży wołamy,\nAby tradycyje czciła\nI sercem do niej przylgnęła.",
+        "tekst": "1. Oto idzie pierwsza para:\nŻwawy Maciej i Barbara,\nI Walenty, i Teresa \nTeż tańcują poloneza. \n\n2. Piękne były ojców stroje,\nTwarde życie, obyczaje.\nPotrawy proste jadali,\nW pocie czoła pracowali.\n\n3. Po robocie w wolnej chwili\nDo zabawy chętni byli,\nMiodek, swojskie wino pili,\nKołaczami się raczyli.\n\n4. Strój żywiecki z piękna słynie,\nNie tylko w polskiej krainie.\nZłote czepce, słuckie pasy\nSą słynniejsze nad atlasy.\n\n5. Ręką żywczan to robione\nI przez wieki upiększone.\nSzanujcie je przeto, ludzie,\nBo to przodków praca w trudzie. \n\n6. Przodków zwyczaje wskrzeszamy\nI do młodzieży wołamy,\nAby tradycyje czciła\nI sercem do niej przylgnęła.",
         "sprawdzone": true
     },
     {
         "id": "czerwona-ruzo",
         "tytul": "4. Czerwona różo",
         "region": "Mieszczanie Żywieccy",
-        "tekst": "1. Czerwona różo, rozwijajże się, } \nBo nie mam z czego wianeczka wić.\nOj, nie ma, nie ma w tym naszym Żywcu\nSłówka do kogo przemówić.\n\n2. Jeden za młody, drugi za stary,\nA zaś ten trzeci się pyszni.\nOj, nie ma, nie ma w tym naszym Żywcu }\nChłopaka ku mojej myśli. } \n\n3. Wszystko się żytko zazieleniło,\nMoja pszeniczka nie wschodzi.\nMiałam jednego ulubionego,\nAle już do mnie nie chodzi. \n\n4. Nie chodź ty do mnie, bo cóż ci po mnie,\nJa ci robiła nie będę.\nOberwałam się złotym dzbanuszkiem,\nCom ci nosiła pić wodę.\n\n5. Ja ci mówiłem: - Nie bierz po pełnym,\nTylko po mniejszej połowie.\nTyś nie słuchała, po pełnym brała,\nTeraz narzekaj na siebie. ",
+        "tekst": "1. Czerwona różo, rozwijajże się, \nBo nie mam z czego wianeczka wić.\nOj, nie ma, nie ma w tym naszym Żywcu\nSłówka do kogo przemówić.\n\n2. Jeden za młody, drugi za stary,\nA zaś ten trzeci się pyszni.\nOj, nie ma, nie ma w tym naszym Żywcu \nChłopaka ku mojej myśli. \n\n3. Wszystko się żytko zazieleniło,\nMoja pszeniczka nie wschodzi.\nMiałam jednego ulubionego,\nAle już do mnie nie chodzi. \n\n4. Nie chodź ty do mnie, bo cóż ci po mnie,\nJa ci robiła nie będę.\nOberwałam się złotym dzbanuszkiem,\nCom ci nosiła pić wodę.\n\n5. Ja ci mówiłem: - Nie bierz po pełnym,\nTylko po mniejszej połowie.\nTyś nie słuchała, po pełnym brała,\nTeraz narzekaj na siebie. ",
         "sprawdzone": false
     },
     {
