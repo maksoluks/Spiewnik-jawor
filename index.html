@@ -13,13 +13,15 @@
             margin: 0;
 
             /* BLOKADA ZAZNACZANIA TEKSTU NA PC I TELEFONACH */
-            -webkit-user-select: none;  /* Safari (iOS / macOS) */
-            -moz-user-select: none;     /* Firefox */
-            -ms-user-select: none;      /* IE10+ / Stary Edge */
-            user-select: none;          /* Chrome, Edge, Opera (Android / Windows) */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
         .container { max-width: 500px; margin: 0 auto; }
         h1 { color: #1db954; font-size: 24px; margin-bottom: 15px; }
+
+        .section-title { font-size: 20px; font-weight: bold; margin: 20px 0 12px 0; color: #fff; }
 
         .search-box {
             width: 100%; padding: 12px 15px; background: #242424;
@@ -28,12 +30,40 @@
         }
         .search-box:focus { outline: 1px solid #1db954; }
 
+        /* KAFELKI SPOTIFY NA EKRANIE STARTOWYM */
+        .grid-categories {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .category-card {
+            background: #282828;
+            padding: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: background 0.2s;
+            height: 35px;
+        }
+        .category-card:hover { background: #3e3e3e; }
+        .category-name { font-weight: bold; font-size: 14px; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 5px; }
+
+        /* Serduszko */
+        .btn-heart {
+            background: none; border: none; color: #b3b3b3; font-size: 18px; cursor: pointer; padding: 4px; transition: transform 0.2s, color 0.2s;
+        }
+        .btn-heart:hover { transform: scale(1.15); }
+        .btn-heart.liked { color: #1db954; }
+
         .footer-author {
             text-align: center;
             margin-top: 50px;
             padding: 20px 0;
             font-size: 11px;
-            color: #535353; /* Ciemny szary, bardzo dyskretny */
+            color: #535353;
             letter-spacing: 1px;
             text-transform: uppercase;
             border-top: 1px solid #1a1a1a;
@@ -41,26 +71,18 @@
 
         .verified-check {
             float: right;
-            color: rgba(29, 185, 84, 0.6); /* Przygaszona zieleń */
+            color: rgba(29, 185, 84, 0.6);
             font-size: 20px;
             font-weight: bold;
             line-height: 1;
         }
 
-        /* Przewijany pasek filtrów */
-        .chips-wrapper {
-            width: 100%;
-            overflow-x: auto;
-            margin-bottom: 20px;
-            padding-bottom: 5px;
-            -webkit-overflow-scrolling: touch;
-        }
-        .chips-wrapper::-webkit-scrollbar { display: none; }
-
-        .chips {
+        /* SIATKA REGIONÓW W TRYBIE WYSZUKIWANIA */
+        .chips-grid {
             display: flex;
+            flex-wrap: wrap;
             gap: 8px;
-            width: max-content;
+            margin-bottom: 20px;
         }
         .chip {
             background: #242424; padding: 8px 16px;
@@ -85,10 +107,10 @@
         .lyrics { white-space: pre-line; background: #1a1a1a; padding: 15px; border-radius: 8px; margin-top: 15px; font-size: 18px; line-height: 1.5; }
         .btn { background: none; border: none; color: #1db954; cursor: pointer; font-size: 16px; padding: 10px 0; }
 
-        /* IDEALNE, CZYSTE, KWADRATOWE KLAMRY ROZCIĄGANE CSS */
+        /* STYLE KLAMER Z INDEX.HTML */
         .bis-block, .chl-block, .dzi-block {
             display: flex;
-            align-items: stretch; /* Rozciąga klamrę od pierwszej do ostatniej linii tekstu */
+            align-items: stretch;
             position: relative;
             margin: 0;
             padding: 0;
@@ -101,16 +123,16 @@
             display: flex;
             align-items: center;
             position: relative;
-            width: 10px; /* Szerokość kwadratowego "wąsa" klamry */
+            width: 10px;
             margin: 0 12px 0 15px;
             border-right: 2px solid;
             border-top: 2px solid;
             border-bottom: 2px solid;
-            border-radius: 0 4px 4px 0; /* Delikatne zaokrąglenie na rogach klamry */
+            border-radius: 0 4px 4px 0;
         }
         .bis-text, .chl-text, .dzi-text {
             position: absolute;
-            left: 18px; /* Odstęp tekstu od klamry */
+            left: 18px;
             font-size: 13px;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -118,16 +140,10 @@
             white-space: nowrap;
         }
 
-        /* ODPOWIEDNIE KOLORY DLA KAŻDEGO TRYBU */
-        /* Bis - Zielona klamra, szary tekst */
         .bis-brace { border-color: #1db954; }
         .bis-text { color: #b3b3b3; }
-
-        /* Chłopcy - Całość Niebieska */
         .chl-brace { border-color: #3498db; }
         .chl-text { color: #3498db; }
-
-        /* Dziewczęta - Całość Różowa */
         .dzi-brace { border-color: #e91e63; }
         .dzi-text { color: #e91e63; }
     </style>
@@ -135,27 +151,28 @@
 <body>
 
 <div class="container">
-    <!-- LISTA PIOSENEK -->
+    <!-- WIDOK GŁÓWNY PANELU -->
     <div id="list-view" class="view active">
         <h1>SpotiJawor</h1>
-        <input type="text" id="search" class="search-box" placeholder="Szukaj po tytule lub tekście...">
+        <input type="text" id="search" class="search-box" placeholder="Szukaj po tytule lub tekście..." oninput="obslugaWyszukiwania()" onfocus="włączTrybWyszukiwania()">
 
-        <div class="chips-wrapper">
-            <div class="chips" id="filters-box"></div>
+        <!-- DYNAMICZNY WIDOK DASHBOARDU -->
+        <div id="dashboard-view">
+            <div class="section-title">Ostatnio oglądane</div>
+            <div class="grid-categories" id="recent-box"></div>
+
+            <div class="section-title">Polubione kategorie</div>
+            <div class="grid-categories" id="liked-box"></div>
         </div>
 
-        <div id="songs-box"></div>
+        <!-- DYNAMICZNY WIDOK WYSZUKIWANIA -->
+        <div id="search-results-view" style="display: none;">
+            <div class="chips-grid" id="filters-box"></div>
+            <div id="songs-box"></div>
+        </div>
     </div>
 
-    <!-- WIDOK TEKSTU -->
-    <div id="song-view" class="view">
-        <button class="btn" onclick="showList()">← Powrót do listy</button>
-        <h2 id="song-header" style="margin-bottom: 5px;"></h2>
-        <div id="song-meta" class="song-region"></div>
-        <div id="song-lyrics" class="lyrics"></div>
-    </div>
-</div>
-
+    <!-- WIDOK TEKSTU PIOSENKI -->
     <div id="song-view" class="view">
         <button class="btn" onclick="showList()">← Powrót do listy</button>
         <h2 id="song-header" style="margin-bottom: 5px;"></h2>
@@ -169,25 +186,28 @@
 <script>
     let bazyPiosenek = [];
     let wybranyRegion = "Wszystkie";
+    let ostatnieKategorie = [];
+    let polubioneKategorie = [];
 
-async function zaladujBazeDanych() {
+    async function zaladujBazeDanych() {
         try {
             const odpowiedz = await fetch('piosenki.json');
             bazyPiosenek = await odpowiedz.json();
 
-            // PRZYWRACANIE FILTRU REGIONU
-            const zapisanyRegion = localStorage.getItem('wybranyRegion');
-            if (zapisanyRegion) {
-                wybranyRegion = zapisanyRegion;
-            }
+            wybranyRegion = localStorage.getItem('wybranyRegion') || "Wszystkie";
+            ostatnieKategorie = JSON.parse(localStorage.getItem('ostatnieKategorie')) || [];
+            polubioneKategorie = JSON.parse(localStorage.getItem('polubioneKategorie')) || [];
 
             generujFiltryRegionalne();
-            render();
+            renderDashboard();
+            renderPiosenki();
 
-            // PRZYWRACANIE OGLĄDANEJ PIOSENKI
             const zapisaneIdPiosenki = localStorage.getItem('ostatniaPiosenkaId');
             if (zapisaneIdPiosenki) {
                 showSong(zapisaneIdPiosenki);
+            } else {
+                // Jeśli nie przeglądamy piosenki, upewnijmy się, że widok dopasuje się do stanu 'wybranyRegion'
+                zarzadzajWidokamiMiedzyDashboardAWyszukiwaniem();
             }
         } catch (blad) {
             console.error("Nie udało się załadować pliku JSON:", blad);
@@ -200,7 +220,6 @@ async function zaladujBazeDanych() {
         if (!tekst) return '';
         return tekst
             .toLowerCase()
-            // Zamiana polskich znaków na podstawowe odpowiedniki
             .replace(/[ąą]/g, 'a')
             .replace(/[ćć]/g, 'c')
             .replace(/[ęę]/g, 'e')
@@ -209,11 +228,97 @@ async function zaladujBazeDanych() {
             .replace(/[óó]/g, 'o')
             .replace(/[śś]/g, 's')
             .replace(/[źźżż]/g, 'z')
-            // Usunięcie przecinków, kropek, pytajników, wykrzykników i myślników
             .replace(/[,.\-?!()]/g, '')
-            // Zamiana wielu spacji na jedną i usunięcie spacji na końcach
             .replace(/\s+/g, ' ')
             .trim();
+    }
+
+    function przelaczPolubienieKategorii(event, region) {
+        event.stopPropagation();
+        const index = polubioneKategorie.indexOf(region);
+        if (index > -1) {
+            polubioneKategorie.splice(index, 1);
+        } else {
+            polubioneKategorie.push(region);
+        }
+        localStorage.setItem('polubioneKategorie', JSON.stringify(polubioneKategorie));
+        renderDashboard();
+        generujFiltryRegionalne(); // Odświeża podświetlenia, jeśli akurat jesteśmy w trybie wyszukiwania
+    }
+
+    function dodajDoOstatnich(region) {
+        if (!region || region === "Wszystkie") return;
+        ostatnieKategorie = ostatnieKategorie.filter(item => item !== region);
+        ostatnieKategorie.unshift(region);
+        if (ostatnieKategorie.length > 4) {
+            ostatnieKategorie.pop();
+        }
+        localStorage.setItem('ostatnieKategorie', JSON.stringify(ostatnieKategorie));
+    }
+
+    function renderDashboard() {
+        const recentBox = document.getElementById('recent-box');
+        const likedBox = document.getElementById('liked-box');
+
+        recentBox.innerHTML = '';
+        if (ostatnieKategorie.length === 0) {
+            recentBox.innerHTML = '<p style="color: #535353; font-size: 13px; grid-column: span 2; margin: 0;">Tutaj pojawią się ostatnio przeglądane regiony.</p>';
+        } else {
+            ostatnieKategorie.forEach(reg => {
+                const czyPolubiona = polubioneKategorie.includes(reg) ? 'liked' : '';
+                recentBox.innerHTML += `
+                    <div class="category-card" onclick="wybierzKategorieZDashboardu('${reg}')">
+                        <span class="category-name">${reg}</span>
+                        <button class="btn-heart ${czyPolubiona}" onclick="przelaczPolubienieKategorii(event, '${reg}')">♥</button>
+                    </div>
+                `;
+            });
+        }
+
+        likedBox.innerHTML = '';
+        if (polubioneKategorie.length === 0) {
+            likedBox.innerHTML = '<p style="color: #535353; font-size: 13px; grid-column: span 2; margin: 0;">Kliknij ♥ przy regionie, aby go tu dodać.</p>';
+        } else {
+            polubioneKategorie.forEach(reg => {
+                likedBox.innerHTML += `
+                    <div class="category-card" onclick="wybierzKategorieZDashboardu('${reg}')">
+                        <span class="category-name">${reg}</span>
+                        <button class="btn-heart liked" onclick="przelaczPolubienieKategorii(event, '${reg}')">♥</button>
+                    </div>
+                `;
+            });
+        }
+    }
+
+    function wybierzKategorieZDashboardu(region) {
+        document.getElementById('search').value = '';
+        setRegion(region);
+    }
+
+    function włączTrybWyszukiwania() {
+        document.getElementById('dashboard-view').style.display = 'none';
+        document.getElementById('search-results-view').style.display = 'block';
+        renderPiosenki();
+    }
+
+    function obslugaWyszukiwania() {
+        zarzadzajWidokamiMiedzyDashboardAWyszukiwaniem();
+        renderPiosenki();
+    }
+
+    // Pomocnicza funkcja pilnująca co ma być schowane, a co pokazane na głównym ekranie
+    function zarzadzajWidokamiMiedzyDashboardAWyszukiwaniem() {
+        const szukajWartosc = document.getElementById('search').value;
+        const dashboard = document.getElementById('dashboard-view');
+        const searchResults = document.getElementById('search-results-view');
+
+        if (szukajWartosc.trim() !== '' || wybranyRegion !== "Wszystkie") {
+            dashboard.style.display = 'none';
+            searchResults.style.display = 'block';
+        } else {
+            dashboard.style.display = 'block';
+            searchResults.style.display = 'none';
+        }
     }
 
     function generujFiltryRegionalne() {
@@ -234,15 +339,13 @@ async function zaladujBazeDanych() {
         filtersBox.innerHTML = HTML;
     }
 
-    function render() {
+    function renderPiosenki() {
         const box = document.getElementById('songs-box');
-        // Zastosowanie normalizacji do wpisanej frazy
         const szukaj = normalizujTekst(document.getElementById('search').value);
         box.innerHTML = '';
         let znalezionoCokolwiek = false;
 
         bazyPiosenek.forEach(item => {
-            // Zastosowanie normalizacji do danych z bazy przed porównaniem
             const znormalizowanyTytul = normalizujTekst(item.tytul);
             const znormalizowanyTekst = normalizujTekst(item.tekst);
 
@@ -274,57 +377,58 @@ async function zaladujBazeDanych() {
 
     function setRegion(reg) {
         wybranyRegion = reg;
-        // ZAPISZ REGION DO PAMIĘCI
         localStorage.setItem('wybranyRegion', reg);
+
+        zarzadzajWidokamiMiedzyDashboardAWyszukiwaniem();
         generujFiltryRegionalne();
-        render();
+        renderPiosenki();
     }
 
-function showSong(id) {
+    function showSong(id) {
         const piosenka = bazyPiosenek.find(p => p.id === id);
         if(!piosenka) return;
 
-        // ZAPISZ ID PIOSENKI DO PAMIĘCI
         localStorage.setItem('ostatniaPiosenkaId', id);
 
-        document.getElementById('song-header').textContent = piosenka.tytul;
+        if(piosenka.region) {
+            dodajDoOstatnich(piosenka.region);
+        }
 
+        document.getElementById('song-header').textContent = piosenka.tytul;
         const detalSprawdzenia = piosenka.sprawdzone ? '<span class="verified-check">✓</span>' : '';
         document.getElementById('song-meta').innerHTML = piosenka.region + detalSprawdzenia;
 
         let sformatowanyTekst = piosenka.tekst;
 
-        // 1. Zamiana dla BIS
         sformatowanyTekst = sformatowanyTekst.replace(/\n?\[bis\]([\s\S]*?)\[\/bis\]\n?/g, function(match, podtekst) {
             return '<div class="bis-block"><div class="bis-lines">' + podtekst.trim() + '</div><div class="bis-brace"><span class="bis-text">bis</span></div></div>';
         });
 
-        // 2. Zamiana dla CHŁOPCÓW
         sformatowanyTekst = sformatowanyTekst.replace(/\n?\[chl\]([\s\S]*?)\[\/chl\]\n?/g, function(match, podtekst) {
             return '<div class="chl-block"><div class="chl-lines">' + podtekst.trim() + '</div><div class="chl-brace"><span class="chl-text">chł</span></div></div>';
         });
 
-        // 3. Zamiana dla DZIEWCZĄT
         sformatowanyTekst = sformatowanyTekst.replace(/\n?\[dzi\]([\s\S]*?)\[\/dzi\]\n?/g, function(match, podtekst) {
             return '<div class="dzi-block"><div class="dzi-lines">' + podtekst.trim() + '</div><div class="dzi-brace"><span class="dzi-text">dzi</span></div></div>';
         });
 
         document.getElementById('song-lyrics').innerHTML = sformatowanyTekst;
-
         document.getElementById('list-view').classList.remove('active');
         document.getElementById('song-view').className = 'view active';
         window.scrollTo(0,0);
     }
 
     function showList() {
-        // USUŃ PIOSENKĘ Z PAMIĘCI (bo użytkownik sam wrócił do listy)
         localStorage.removeItem('ostatniaPiosenkaId');
-
         document.getElementById('song-view').className = 'view';
         document.getElementById('list-view').className = 'view active';
-    }
 
-    document.getElementById('search').addEventListener('input', render);
+        // Zamiast całkowitego resetu sprawdzamy, w jakim stanie zostawiliśmy filtry i pole wyszukiwania
+        zarzadzajWidokamiMiedzyDashboardAWyszukiwaniem();
+        generujFiltryRegionalne();
+        renderDashboard();
+        renderPiosenki();
+    }
 
     zaladujBazeDanych();
 </script>
